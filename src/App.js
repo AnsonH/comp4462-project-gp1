@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { HashRouter, Route, Link } from "react-router-dom";
-import Index from './pages/index';
+import Index from "./pages/index";
 
 function App() {
   return (
