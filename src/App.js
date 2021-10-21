@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { HashRouter, Route, Link } from "react-router-dom";
+import Index from './pages/index';
 
 function App() {
   return (
@@ -18,6 +20,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <HashRouter basename="/">
+        <Route exact path="/" component={Index}>
+          <Index />
+        </Route>
+        {/* <Route path="/about" component={}>
+          <About />
+        </Route> */}
+      </HashRouter>
     </div>
   );
 }
