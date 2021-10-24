@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { HashRouter, Route, Link } from "react-router-dom";
 import Index from "./pages/index";
+import About from "./pages/about/About";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       </header>
       <HashRouter basename="/">
         <Route exact path="/" component={Index} />
-        <Route path="/about" component={Index} />
+        <Route path="/about" component={About} />
         <Route path="/404" component={Index} />
         {/* <Route path="/about" component={Index} /> */}
         {/* <Route path="/about" component={Index} /> */}
