@@ -21,12 +21,15 @@ function App() {
         </a>
       </header>
       <HashRouter basename="/">
-        <Route exact path="/" component={Index}>
-          <Index />
-        </Route>
-        {/* <Route path="/about" component={}>
-          <About />
-        </Route> */}
+        <Route exact path="/" component={Index} />
+        <Route path="/about" component={Index} />
+        <Route path="/404" component={Index} />
+        {/* <Route path="/about" component={Index} /> */}
+        {/* <Route path="/about" component={Index} /> */}
+        {/* <Route path="/about" component={Index} /> */}
+        {/* <Route path="/about" component={Index} /> */}
+        {/* <Route path="/about" component={Index} /> */}
+        {/* <Route path="/about" component={Index} /> */}
       </HashRouter>
     </div>
   );
