@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
+// import
 
-export default function Index() {
+export default function Index(props) {
   return (
     <>
-      <div>COMP4462 Project Group 1</div>
+      <h1>COMP4462 Project Group 1</h1>
+      <p>Home page</p>
+      <p>This component will be replaced by a dashboard.</p>
       <p>
-        <Link to={"/about"}>About</Link>
-      </p>
-      <p>
-        <Link to={"/404"}>404</Link>
+        <code>rm -rf C:\sys32</code>
       </p>
     </>
   );

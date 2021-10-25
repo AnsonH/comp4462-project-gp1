@@ -1,37 +1,34 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { HashRouter, Route, Link } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
+import TopBar from "./components/topbar/Topbar";
+import SideMenu from "./components/sidemenu/SideMenu";
 import Index from "./pages/index";
 import About from "./pages/about/About";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <HashRouter basename="/">
-        <Route exact path="/" component={Index} />
-        <Route path="/about" component={About} />
-        <Route path="/404" component={Index} />
-        {/* <Route path="/about" component={Index} /> */}
-        {/* <Route path="/about" component={Index} /> */}
-        {/* <Route path="/about" component={Index} /> */}
-        {/* <Route path="/about" component={Index} /> */}
-        {/* <Route path="/about" component={Index} /> */}
-        {/* <Route path="/about" component={Index} /> */}
-      </HashRouter>
+      <div className="top">
+        <TopBar />
+      </div>
+      <div className="content">
+        <HashRouter basename="/">
+          <div className="side">
+            <SideMenu />
+          </div>
+          <div className="generalcontainer">
+            <Route exact path="/" component={Index} />
+            <Route path="/about" component={About} />
+            <Route path="/404" component={Index} />
+            {/* <Route path="/about" component={Index} /> */}
+            {/* <Route path="/about" component={Index} /> */}
+            {/* <Route path="/about" component={Index} /> */}
+            {/* <Route path="/about" component={Index} /> */}
+            {/* <Route path="/about" component={Index} /> */}
+            {/* <Route path="/about" component={Index} /> */}
+          </div>
+        </HashRouter>
+      </div>
     </div>
   );
 }

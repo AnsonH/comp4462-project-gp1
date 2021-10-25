@@ -1,15 +1,11 @@
-import { Link } from "react-router-dom";
+// import
 
 export default function About() {
   return (
     <>
-      <div>COMP4462 Project Group 1</div>
-      <p>
-        <Link to={"/"}>Home</Link>
-      </p>
-      <p>
-        <Link to={"/404"}>404</Link>
-      </p>
+      <h1>COMP4462 Project Group 1</h1>
+      <p>About page</p>
+      <p>Created by Akshat, Anson, Owen, Thomas</p>
     </>
   );
 }
