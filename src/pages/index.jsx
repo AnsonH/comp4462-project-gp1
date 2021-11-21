@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "@mui/material";
 
 export default function Index(props) {
   const [Region, setRegion] = useState(""); // Set region to whole world / Asia / other regions
@@ -13,6 +14,7 @@ export default function Index(props) {
       <p>
         <code>rm -rf C:\sys32</code>
       </p>
+      <Button variant="contained">Test (Delete Me)</Button>
     </>
   );
 }

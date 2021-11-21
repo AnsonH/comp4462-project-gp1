@@ -1,6 +1,5 @@
 import "./App.css";
 import { HashRouter, Route } from "react-router-dom";
-import TopBar from "./components/topbar/Topbar";
 import SideMenu from "./components/sidemenu/SideMenu";
 import Index from "./pages/index";
 import About from "./pages/about/About";
@@ -8,9 +7,6 @@ import About from "./pages/about/About";
 function App() {
   return (
     <div className="App">
-      <div className="top">
-        <TopBar />
-      </div>
       <div className="content">
         <HashRouter basename="/">
           <div className="side">
