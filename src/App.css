@@ -6,17 +6,10 @@
   align-items: stretch;
 }
 
-.top {
-  /* position: fixed; */
-  /* display: flex; */
-  height: 15vh;
-  width: 100vw;
-}
-
 .content {
   display: flex;
   width: 100vw;
-  height: 85vh;
+  height: 100vh;
   /* flex-grow: 1; */
   flex-direction: row;
 }

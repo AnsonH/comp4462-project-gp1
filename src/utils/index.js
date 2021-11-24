@@ -2,7 +2,13 @@
 
 const data = require("../data/mass_shootings.json");
 
-function loadData(drop, ...array) {
+/**
+ * drop: boolean, whether or not the attributes are selected, default false
+ * ...array: argument list of string, data attributes
+ *
+ * returns: array of JSON objects containing each shooting information
+ */
+function loadData(include = true, ...array) {
   const keys = Object.keys(data[0]);
   for (let i = 0; i < array.length; ++i) {
     if (!keys.includes(array[i])) {
@@ -14,12 +20,17 @@ function loadData(drop, ...array) {
   return data.map((shooting) =>
     Object.fromEntries(
       Object.entries(shooting).filter(([key, value]) =>
-        drop ? array.includes(key) : !array.includes(key)
+        include ? array.includes(key) : !array.includes(key)
       )
     )
   );
 }
 
+/**
+ * S_id: int, shooting incident ID
+ *
+ * returns: JSON object containing the corresponding shooting information
+ */
 function getShootingByID(S_id) {
   const s = data.find((shooting) => shooting["S#"] === S_id);
   return s;
