@@ -1,0 +1,3734 @@
+[
+    {
+        "year": 1976,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 659170,
+                "republican_total": 504070
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 44058,
+                "republican_total": 71555
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 295602,
+                "republican_total": 418642
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 498604,
+                "republican_total": 267903
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3742284,
+                "republican_total": 3882244
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 460801,
+                "republican_total": 584278
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 647895,
+                "republican_total": 719261
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 122461,
+                "republican_total": 109780
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 137818,
+                "republican_total": 27873
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1636000,
+                "republican_total": 1469531
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 979409,
+                "republican_total": 483743
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 147375,
+                "republican_total": 140003
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 126549,
+                "republican_total": 204151
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2271295,
+                "republican_total": 2364269
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1014714,
+                "republican_total": 1183958
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 619931,
+                "republican_total": 632864
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 430421,
+                "republican_total": 502752
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 615717,
+                "republican_total": 531852
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 661365,
+                "republican_total": 587446
+            },
+            {
+                "state": "MAINE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 232279,
+                "republican_total": 236320
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 759612,
+                "republican_total": 672661
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1429475,
+                "republican_total": 1030276
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1696714,
+                "republican_total": 1893742
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1070440,
+                "republican_total": 819395
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "DEMOCRAT",
+                "democrat_total": 381329,
+                "republican_total": 366846
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "DEMOCRAT",
+                "democrat_total": 998387,
+                "republican_total": 927443
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 149259,
+                "republican_total": 173703
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 233293,
+                "republican_total": 359219
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 92479,
+                "republican_total": 101273
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 147645,
+                "republican_total": 185935
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1444653,
+                "republican_total": 1509688
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 201148,
+                "republican_total": 211419
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3244165,
+                "republican_total": 2825913
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 927365,
+                "republican_total": 741960
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 136078,
+                "republican_total": 153684
+            },
+            {
+                "state": "OHIO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2009959,
+                "republican_total": 2000626
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 532442,
+                "republican_total": 545708
+            },
+            {
+                "state": "OREGON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 490407,
+                "republican_total": 492120
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2328677,
+                "republican_total": 2205604
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 227636,
+                "republican_total": 181249
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 450807,
+                "republican_total": 346149
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 147068,
+                "republican_total": 151505
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 825879,
+                "republican_total": 633969
+            },
+            {
+                "state": "TEXAS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2082319,
+                "republican_total": 1953300
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 182110,
+                "republican_total": 337908
+            },
+            {
+                "state": "VERMONT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 77798,
+                "republican_total": 100387
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 813896,
+                "republican_total": 836554
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 717323,
+                "republican_total": 777732
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 435864,
+                "republican_total": 314726
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1040232,
+                "republican_total": 1004987
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 62239,
+                "republican_total": 92717
+            }
+        ]
+    },
+    {
+        "year": 1980,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 636730,
+                "republican_total": 654192
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 41842,
+                "republican_total": 86112
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 246843,
+                "republican_total": 529688
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 398041,
+                "republican_total": 403164
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3082943,
+                "republican_total": 4522994
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 368009,
+                "republican_total": 652264
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 541732,
+                "republican_total": 677210
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 105754,
+                "republican_total": 111252
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 130231,
+                "republican_total": 23313
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1419475,
+                "republican_total": 2046951
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 890955,
+                "republican_total": 654168
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 135879,
+                "republican_total": 130112
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 110192,
+                "republican_total": 290699
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1981413,
+                "republican_total": 2358049
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 844197,
+                "republican_total": 1255656
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 508672,
+                "republican_total": 676026
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 326150,
+                "republican_total": 566812
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 617417,
+                "republican_total": 635274
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 708453,
+                "republican_total": 792853
+            },
+            {
+                "state": "MAINE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 220974,
+                "republican_total": 238522
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 726161,
+                "republican_total": 680606
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1053802,
+                "republican_total": 1057631
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1661532,
+                "republican_total": 1915225
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 954173,
+                "republican_total": 873268
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 429281,
+                "republican_total": 441089
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 931182,
+                "republican_total": 1074181
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 118032,
+                "republican_total": 206814
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 166424,
+                "republican_total": 419214
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 66666,
+                "republican_total": 155017
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 108864,
+                "republican_total": 221705
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1147364,
+                "republican_total": 1546557
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 167826,
+                "republican_total": 250779
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2728372,
+                "republican_total": 2637700
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 875635,
+                "republican_total": 915018
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 79189,
+                "republican_total": 193695
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1752414,
+                "republican_total": 2206545
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 402026,
+                "republican_total": 695570
+            },
+            {
+                "state": "OREGON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 456890,
+                "republican_total": 571044
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1937540,
+                "republican_total": 2261872
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 198342,
+                "republican_total": 154793
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 428220,
+                "republican_total": 439277
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 103855,
+                "republican_total": 198343
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 783051,
+                "republican_total": 787761
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1881147,
+                "republican_total": 2510705
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 124266,
+                "republican_total": 439687
+            },
+            {
+                "state": "VERMONT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 81952,
+                "republican_total": 94628
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 752174,
+                "republican_total": 989609
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 650193,
+                "republican_total": 865244
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 367462,
+                "republican_total": 334206
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 981584,
+                "republican_total": 1088845
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 49427,
+                "republican_total": 110700
+            }
+        ]
+    },
+    {
+        "year": 1984,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 551899,
+                "republican_total": 872849
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 62007,
+                "republican_total": 138377
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 333854,
+                "republican_total": 681416
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 338646,
+                "republican_total": 534774
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3922519,
+                "republican_total": 5467009
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 454975,
+                "republican_total": 821817
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 569597,
+                "republican_total": 890877
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 101656,
+                "republican_total": 152190
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 180408,
+                "republican_total": 29009
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1448816,
+                "republican_total": 2730350
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 706628,
+                "republican_total": 1068722
+            },
+            {
+                "state": "HAWAII",
+                "winner": "REPUBLICAN",
+                "democrat_total": 147154,
+                "republican_total": 185050
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 108510,
+                "republican_total": 297523
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2086499,
+                "republican_total": 2707103
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 841481,
+                "republican_total": 1377230
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 605620,
+                "republican_total": 703088
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 333149,
+                "republican_total": 677296
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 539539,
+                "republican_total": 821702
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 651586,
+                "republican_total": 1037299
+            },
+            {
+                "state": "MAINE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 214515,
+                "republican_total": 336500
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "REPUBLICAN",
+                "democrat_total": 787935,
+                "republican_total": 879918
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1239606,
+                "republican_total": 1310936
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1529638,
+                "republican_total": 2251571
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1036364,
+                "republican_total": 1032603
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 352192,
+                "republican_total": 582377
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 848583,
+                "republican_total": 1274188
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 146742,
+                "republican_total": 232450
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 187866,
+                "republican_total": 460054
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 91655,
+                "republican_total": 188770
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 120347,
+                "republican_total": 267050
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1261323,
+                "republican_total": 1933630
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 201769,
+                "republican_total": 307101
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3001285,
+                "republican_total": 3376519
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 824287,
+                "republican_total": 1346481
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 104429,
+                "republican_total": 200336
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1825440,
+                "republican_total": 2678559
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 385080,
+                "republican_total": 861530
+            },
+            {
+                "state": "OREGON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 536479,
+                "republican_total": 685700
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2228131,
+                "republican_total": 2584323
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "REPUBLICAN",
+                "democrat_total": 197106,
+                "republican_total": 212080
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 344459,
+                "republican_total": 615539
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 116113,
+                "republican_total": 200267
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 711714,
+                "republican_total": 990212
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1949276,
+                "republican_total": 3433428
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 155369,
+                "republican_total": 469105
+            },
+            {
+                "state": "VERMONT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 95730,
+                "republican_total": 135865
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 796250,
+                "republican_total": 1337078
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "REPUBLICAN",
+                "democrat_total": 798352,
+                "republican_total": 1051670
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 328125,
+                "republican_total": 405483
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 995740,
+                "republican_total": 1198584
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 53370,
+                "republican_total": 133241
+            }
+        ]
+    },
+    {
+        "year": 1988,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 549506,
+                "republican_total": 815576
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 72584,
+                "republican_total": 119251
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 454029,
+                "republican_total": 702541
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 349237,
+                "republican_total": 466578
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 4702233,
+                "republican_total": 5054917
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 621453,
+                "republican_total": 728177
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 676584,
+                "republican_total": 750241
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 108647,
+                "republican_total": 139639
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 159407,
+                "republican_total": 27590
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1656701,
+                "republican_total": 2618885
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 714792,
+                "republican_total": 1081331
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 192364,
+                "republican_total": 158625
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 147272,
+                "republican_total": 253881
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2215940,
+                "republican_total": 2310939
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 860643,
+                "republican_total": 1297763
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 670557,
+                "republican_total": 545355
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 422636,
+                "republican_total": 554049
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 580368,
+                "republican_total": 734281
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 717460,
+                "republican_total": 883702
+            },
+            {
+                "state": "MAINE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 243569,
+                "republican_total": 307131
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "REPUBLICAN",
+                "democrat_total": 826304,
+                "republican_total": 876167
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1401415,
+                "republican_total": 1194635
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1675783,
+                "republican_total": 1965486
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1109471,
+                "republican_total": 962337
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 363921,
+                "republican_total": 557890
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1001619,
+                "republican_total": 1084953
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 168936,
+                "republican_total": 190412
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 259235,
+                "republican_total": 397956
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 132738,
+                "republican_total": 206040
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 163696,
+                "republican_total": 281537
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1320352,
+                "republican_total": 1743192
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 244497,
+                "republican_total": 270341
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3255487,
+                "republican_total": 2838414
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 890167,
+                "republican_total": 1237258
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 127739,
+                "republican_total": 166559
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1939629,
+                "republican_total": 2416549
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 483423,
+                "republican_total": 678367
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 616206,
+                "republican_total": 560126
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2194944,
+                "republican_total": 2300087
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 225123,
+                "republican_total": 177761
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 370554,
+                "republican_total": 606443
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 145560,
+                "republican_total": 165415
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 679794,
+                "republican_total": 947233
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2352748,
+                "republican_total": 3036829
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 207343,
+                "republican_total": 428442
+            },
+            {
+                "state": "VERMONT",
+                "winner": "REPUBLICAN",
+                "democrat_total": 115775,
+                "republican_total": 124331
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 859799,
+                "republican_total": 1309162
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 933516,
+                "republican_total": 903835
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 341016,
+                "republican_total": 310065
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1126794,
+                "republican_total": 1047499
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 67113,
+                "republican_total": 106867
+            }
+        ]
+    },
+    {
+        "year": 1992,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 690080,
+                "republican_total": 804283
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 78294,
+                "republican_total": 102000
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 543050,
+                "republican_total": 572086
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 505823,
+                "republican_total": 337324
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 5121325,
+                "republican_total": 3630574
+            },
+            {
+                "state": "COLORADO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 629681,
+                "republican_total": 562850
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 682318,
+                "republican_total": 578313
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 126054,
+                "republican_total": 102313
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 192619,
+                "republican_total": 20698
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2071698,
+                "republican_total": 2173310
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1008966,
+                "republican_total": 995252
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 179310,
+                "republican_total": 136822
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 137013,
+                "republican_total": 202645
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2453350,
+                "republican_total": 1734096
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 848420,
+                "republican_total": 989375
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 586353,
+                "republican_total": 504891
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 390434,
+                "republican_total": 449951
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 665104,
+                "republican_total": 617178
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 815971,
+                "republican_total": 733386
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 263420,
+                "republican_total": 206504
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 988571,
+                "republican_total": 707094
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1318639,
+                "republican_total": 805039
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1871182,
+                "republican_total": 1554940
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1020997,
+                "republican_total": 747841
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 400258,
+                "republican_total": 487793
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1053873,
+                "republican_total": 811159
+            },
+            {
+                "state": "MONTANA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 154507,
+                "republican_total": 144207
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 216864,
+                "republican_total": 343678
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 189148,
+                "republican_total": 175828
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 209040,
+                "republican_total": 202484
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1436206,
+                "republican_total": 1356865
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 261617,
+                "republican_total": 212824
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3346894,
+                "republican_total": 2041690
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1114042,
+                "republican_total": 1134661
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 99168,
+                "republican_total": 136244
+            },
+            {
+                "state": "OHIO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1984942,
+                "republican_total": 1894310
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 473066,
+                "republican_total": 592929
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 621314,
+                "republican_total": 475757
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2239164,
+                "republican_total": 1791841
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 213299,
+                "republican_total": 131601
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 525514,
+                "republican_total": 577507
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 124888,
+                "republican_total": 136718
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 933521,
+                "republican_total": 841300
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2281815,
+                "republican_total": 2496071
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 183429,
+                "republican_total": 322632
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 133592,
+                "republican_total": 88122
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1038650,
+                "republican_total": 1150517
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 993037,
+                "republican_total": 731234
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 331001,
+                "republican_total": 241974
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1041066,
+                "republican_total": 930855
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 68160,
+                "republican_total": 79347
+            }
+        ]
+    },
+    {
+        "year": 1996,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 662165,
+                "republican_total": 769044
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 80380,
+                "republican_total": 122746
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 653288,
+                "republican_total": 622073
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 475171,
+                "republican_total": 325416
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 5119835,
+                "republican_total": 3828381
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 671152,
+                "republican_total": 691848
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 735740,
+                "republican_total": 483109
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 140355,
+                "republican_total": 99062
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 158220,
+                "republican_total": 17339
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2546870,
+                "republican_total": 2244536
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1053849,
+                "republican_total": 1080843
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 205012,
+                "republican_total": 113943
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 165443,
+                "republican_total": 256595
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2341744,
+                "republican_total": 1587021
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 887424,
+                "republican_total": 1006693
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 620258,
+                "republican_total": 492644
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 387659,
+                "republican_total": 583245
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 636614,
+                "republican_total": 623283
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 927837,
+                "republican_total": 712586
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 312788,
+                "republican_total": 186378
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 966207,
+                "republican_total": 681530
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1571509,
+                "republican_total": 718058
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1989653,
+                "republican_total": 1481212
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1120380,
+                "republican_total": 766395
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 394022,
+                "republican_total": 439838
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1025935,
+                "republican_total": 890016
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 167922,
+                "republican_total": 179652
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 236761,
+                "republican_total": 363467
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 203974,
+                "republican_total": 199244
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 246166,
+                "republican_total": 196486
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1652361,
+                "republican_total": 1103099
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 273495,
+                "republican_total": 232751
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3649630,
+                "republican_total": 1738707
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1107849,
+                "republican_total": 1225938
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 106905,
+                "republican_total": 125050
+            },
+            {
+                "state": "OHIO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2148222,
+                "republican_total": 1859883
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 488105,
+                "republican_total": 582315
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 649641,
+                "republican_total": 538152
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2215819,
+                "republican_total": 1801169
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 233050,
+                "republican_total": 104683
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 506152,
+                "republican_total": 573339
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 139333,
+                "republican_total": 150543
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 909146,
+                "republican_total": 863530
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2459683,
+                "republican_total": 2736167
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 221633,
+                "republican_total": 361911
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 137894,
+                "republican_total": 80352
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1091060,
+                "republican_total": 1138350
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1123323,
+                "republican_total": 840712
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 327812,
+                "republican_total": 233946
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1071971,
+                "republican_total": 845029
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 77934,
+                "republican_total": 105388
+            }
+        ]
+    },
+    {
+        "year": 2000,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 692611,
+                "republican_total": 941173
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 79004,
+                "republican_total": 167398
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 685341,
+                "republican_total": 781652
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 422768,
+                "republican_total": 472940
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 5861203,
+                "republican_total": 4567429
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 738227,
+                "republican_total": 883748
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 816015,
+                "republican_total": 561094
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 180068,
+                "republican_total": 137288
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 171923,
+                "republican_total": 18073
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2912253,
+                "republican_total": 2912790
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1116230,
+                "republican_total": 1419720
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 205286,
+                "republican_total": 137845
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 138637,
+                "republican_total": 336937
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2589026,
+                "republican_total": 2019421
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 901980,
+                "republican_total": 1245836
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 638517,
+                "republican_total": 634373
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 399276,
+                "republican_total": 622332
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 638923,
+                "republican_total": 872520
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 792344,
+                "republican_total": 927871
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 319951,
+                "republican_total": 286616
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1144008,
+                "republican_total": 813827
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1616487,
+                "republican_total": 878502
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2170418,
+                "republican_total": 1953139
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 0,
+                "republican_total": 1109659
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 404614,
+                "republican_total": 572844
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1111138,
+                "republican_total": 1189924
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 137126,
+                "republican_total": 240178
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 231780,
+                "republican_total": 433862
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 279978,
+                "republican_total": 301575
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 266348,
+                "republican_total": 273559
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1788850,
+                "republican_total": 1284173
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 286783,
+                "republican_total": 286417
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3942215,
+                "republican_total": 2258577
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1257692,
+                "republican_total": 1631163
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 95284,
+                "republican_total": 174852
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2183628,
+                "republican_total": 2350363
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 474276,
+                "republican_total": 744337
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 720342,
+                "republican_total": 713577
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2485967,
+                "republican_total": 2281127
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 249508,
+                "republican_total": 130555
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 566037,
+                "republican_total": 786892
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 118804,
+                "republican_total": 190700
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 981720,
+                "republican_total": 1061949
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2433746,
+                "republican_total": 3799639
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 203053,
+                "republican_total": 515096
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 149022,
+                "republican_total": 119775
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1217290,
+                "republican_total": 1437490
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1247652,
+                "republican_total": 1108864
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 295497,
+                "republican_total": 336475
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1242987,
+                "republican_total": 1237279
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 60481,
+                "republican_total": 147947
+            }
+        ]
+    },
+    {
+        "year": 2004,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 693933,
+                "republican_total": 1176394
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 111025,
+                "republican_total": 190889
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 893524,
+                "republican_total": 1104294
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 469953,
+                "republican_total": 572898
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 6745485,
+                "republican_total": 5509826
+            },
+            {
+                "state": "COLORADO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1001732,
+                "republican_total": 1101255
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 857488,
+                "republican_total": 693826
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 200152,
+                "republican_total": 171660
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 202970,
+                "republican_total": 21256
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3583544,
+                "republican_total": 3964522
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1366149,
+                "republican_total": 1914254
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 231708,
+                "republican_total": 194191
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 181098,
+                "republican_total": 409235
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2891550,
+                "republican_total": 2345946
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 969011,
+                "republican_total": 1479438
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 741898,
+                "republican_total": 751957
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 434993,
+                "republican_total": 736456
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 712733,
+                "republican_total": 1069439
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 820299,
+                "republican_total": 1102169
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 396842,
+                "republican_total": 330201
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1334500,
+                "republican_total": 1024703
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1803800,
+                "republican_total": 1071109
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2479183,
+                "republican_total": 2313746
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 0,
+                "republican_total": 1346695
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 457766,
+                "republican_total": 672660
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1259171,
+                "republican_total": 1455713
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 173710,
+                "republican_total": 266063
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 254328,
+                "republican_total": 512814
+            },
+            {
+                "state": "NEVADA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 397190,
+                "republican_total": 418690
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 340511,
+                "republican_total": 331237
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1911430,
+                "republican_total": 1670003
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 370942,
+                "republican_total": 376930
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4180755,
+                "republican_total": 2806993
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1525849,
+                "republican_total": 1961166
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 111052,
+                "republican_total": 196651
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2741165,
+                "republican_total": 2859764
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 503966,
+                "republican_total": 959792
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 943163,
+                "republican_total": 866831
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2938095,
+                "republican_total": 2793847
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 259760,
+                "republican_total": 169046
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 661669,
+                "republican_total": 937974
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 149244,
+                "republican_total": 232584
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1036477,
+                "republican_total": 1384375
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2832704,
+                "republican_total": 4526917
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 241199,
+                "republican_total": 663742
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 184067,
+                "republican_total": 121180
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1454742,
+                "republican_total": 1716959
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1510201,
+                "republican_total": 1304894
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 326541,
+                "republican_total": 423778
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1489504,
+                "republican_total": 1478120
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 70776,
+                "republican_total": 167629
+            }
+        ]
+    },
+    {
+        "year": 2008,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 813479,
+                "republican_total": 1266546
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 123594,
+                "republican_total": 193841
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1034707,
+                "republican_total": 1230111
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 422310,
+                "republican_total": 638017
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 8274473,
+                "republican_total": 5011781
+            },
+            {
+                "state": "COLORADO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1288576,
+                "republican_total": 1073589
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 997772,
+                "republican_total": 629428
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 255459,
+                "republican_total": 152374
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 245800,
+                "republican_total": 17367
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4282074,
+                "republican_total": 4045624
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1844123,
+                "republican_total": 2048759
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 325871,
+                "republican_total": 120566
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 236440,
+                "republican_total": 403012
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3419348,
+                "republican_total": 2031179
+            },
+            {
+                "state": "INDIANA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1374039,
+                "republican_total": 1345648
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 828940,
+                "republican_total": 682379
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 514765,
+                "republican_total": 699655
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 751985,
+                "republican_total": 1048462
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 782989,
+                "republican_total": 1148275
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 421923,
+                "republican_total": 295273
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1629467,
+                "republican_total": 959862
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1904097,
+                "republican_total": 1108854
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2872579,
+                "republican_total": 2048639
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1573354,
+                "republican_total": 1275409
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 554662,
+                "republican_total": 724597
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1441911,
+                "republican_total": 1445814
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 231667,
+                "republican_total": 242763
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 333319,
+                "republican_total": 452979
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 533736,
+                "republican_total": 412827
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 384826,
+                "republican_total": 316534
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2215422,
+                "republican_total": 1613207
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 472422,
+                "republican_total": 346832
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4645332,
+                "republican_total": 2418323
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2142651,
+                "republican_total": 2128474
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 141278,
+                "republican_total": 168601
+            },
+            {
+                "state": "OHIO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2940044,
+                "republican_total": 2677820
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 502496,
+                "republican_total": 960165
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1037291,
+                "republican_total": 738475
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3276363,
+                "republican_total": 2655885
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 296571,
+                "republican_total": 165391
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 862449,
+                "republican_total": 1034896
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 170924,
+                "republican_total": 203054
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1087437,
+                "republican_total": 1479178
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3528633,
+                "republican_total": 4479328
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 327670,
+                "republican_total": 596030
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 219262,
+                "republican_total": 98974
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1959532,
+                "republican_total": 1725005
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1750848,
+                "republican_total": 1229216
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 303857,
+                "republican_total": 397466
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1677211,
+                "republican_total": 1262393
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 82868,
+                "republican_total": 164958
+            }
+        ]
+    },
+    {
+        "year": 2012,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 795696,
+                "republican_total": 1255925
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 122640,
+                "republican_total": 164676
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1025232,
+                "republican_total": 1233654
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 394409,
+                "republican_total": 647744
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 7854285,
+                "republican_total": 4839958
+            },
+            {
+                "state": "COLORADO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1323101,
+                "republican_total": 1185243
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 905083,
+                "republican_total": 634892
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 242584,
+                "republican_total": 165484
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 267070,
+                "republican_total": 21381
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4237756,
+                "republican_total": 4163447
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1773827,
+                "republican_total": 2078688
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 306658,
+                "republican_total": 121015
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 212787,
+                "republican_total": 420911
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3019512,
+                "republican_total": 2135216
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1152887,
+                "republican_total": 1420543
+            },
+            {
+                "state": "IOWA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 822544,
+                "republican_total": 730617
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 440726,
+                "republican_total": 692634
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 679370,
+                "republican_total": 1087190
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 809141,
+                "republican_total": 1152262
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 401306,
+                "republican_total": 292276
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1677844,
+                "republican_total": 971869
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1921290,
+                "republican_total": 1188314
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2564569,
+                "republican_total": 2115256
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 0,
+                "republican_total": 1320225
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 562949,
+                "republican_total": 710746
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1223796,
+                "republican_total": 1482440
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 201839,
+                "republican_total": 267928
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 302081,
+                "republican_total": 475064
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 531373,
+                "republican_total": 463567
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 369561,
+                "republican_total": 329918
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2122786,
+                "republican_total": 1478088
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 415335,
+                "republican_total": 335788
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4324228,
+                "republican_total": 2223397
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2178391,
+                "republican_total": 2270395
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 124966,
+                "republican_total": 188320
+            },
+            {
+                "state": "OHIO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2827621,
+                "republican_total": 2661407
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 443547,
+                "republican_total": 891325
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 970488,
+                "republican_total": 754175
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2990274,
+                "republican_total": 2680434
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 279677,
+                "republican_total": 157204
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 865941,
+                "republican_total": 1071645
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 145039,
+                "republican_total": 210610
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 960709,
+                "republican_total": 1462330
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3308124,
+                "republican_total": 4569843
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 251813,
+                "republican_total": 740600
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 199239,
+                "republican_total": 92698
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1971820,
+                "republican_total": 1822522
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1755396,
+                "republican_total": 1290670
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 238269,
+                "republican_total": 417655
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1620985,
+                "republican_total": 1410966
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 69286,
+                "republican_total": 170962
+            }
+        ]
+    },
+    {
+        "year": 2016,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 729547,
+                "republican_total": 1318255
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 116454,
+                "republican_total": 163387
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1161209,
+                "republican_total": 1252401
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 380494,
+                "republican_total": 684872
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 8753788,
+                "republican_total": 4483810
+            },
+            {
+                "state": "COLORADO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1338870,
+                "republican_total": 1202484
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 897572,
+                "republican_total": 673215
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 235603,
+                "republican_total": 185127
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 282830,
+                "republican_total": 12723
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 4504975,
+                "republican_total": 4617886
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1877963,
+                "republican_total": 2089104
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 266891,
+                "republican_total": 128847
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 189765,
+                "republican_total": 409055
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3090729,
+                "republican_total": 2146015
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1033126,
+                "republican_total": 1557286
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 653669,
+                "republican_total": 800983
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 427005,
+                "republican_total": 671018
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 628854,
+                "republican_total": 1202971
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 780154,
+                "republican_total": 1178638
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 357735,
+                "republican_total": 335593
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1678006,
+                "republican_total": 943428
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1995196,
+                "republican_total": 1090893
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2268839,
+                "republican_total": 2279543
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1367705,
+                "republican_total": 1322949
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 485131,
+                "republican_total": 700714
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1071068,
+                "republican_total": 1594511
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 177709,
+                "republican_total": 279240
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 284494,
+                "republican_total": 495961
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 539260,
+                "republican_total": 512058
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 348526,
+                "republican_total": 345790
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2148278,
+                "republican_total": 1601933
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 385234,
+                "republican_total": 319667
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 4379789,
+                "republican_total": 2527142
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2189316,
+                "republican_total": 2362631
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 93758,
+                "republican_total": 216794
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2394164,
+                "republican_total": 2841005
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 420375,
+                "republican_total": 949136
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1002106,
+                "republican_total": 782403
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2926441,
+                "republican_total": 2970733
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 252525,
+                "republican_total": 180543
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 855373,
+                "republican_total": 1155389
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 117458,
+                "republican_total": 227721
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 870695,
+                "republican_total": 1522925
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 3877868,
+                "republican_total": 4685047
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 310674,
+                "republican_total": 515211
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 178573,
+                "republican_total": 95369
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1981473,
+                "republican_total": 1769443
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1742718,
+                "republican_total": 1221747
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 188794,
+                "republican_total": 489371
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1382536,
+                "republican_total": 1405284
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 55973,
+                "republican_total": 174419
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "details": [
+            {
+                "state": "ALABAMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 849624,
+                "republican_total": 1441170
+            },
+            {
+                "state": "ALASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 153778,
+                "republican_total": 189951
+            },
+            {
+                "state": "ARIZONA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1672143,
+                "republican_total": 1661686
+            },
+            {
+                "state": "ARKANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 423932,
+                "republican_total": 760647
+            },
+            {
+                "state": "CALIFORNIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 11110250,
+                "republican_total": 6006429
+            },
+            {
+                "state": "COLORADO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1804352,
+                "republican_total": 1364607
+            },
+            {
+                "state": "CONNECTICUT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1080831,
+                "republican_total": 714717
+            },
+            {
+                "state": "DELAWARE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 296268,
+                "republican_total": 200603
+            },
+            {
+                "state": "WASHINGTON, D.C.",
+                "winner": "DEMOCRAT",
+                "democrat_total": 317323,
+                "republican_total": 18586
+            },
+            {
+                "state": "FLORIDA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 5297045,
+                "republican_total": 5668731
+            },
+            {
+                "state": "GEORGIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2473633,
+                "republican_total": 2461854
+            },
+            {
+                "state": "HAWAII",
+                "winner": "DEMOCRAT",
+                "democrat_total": 366130,
+                "republican_total": 196864
+            },
+            {
+                "state": "IDAHO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 287021,
+                "republican_total": 554119
+            },
+            {
+                "state": "ILLINOIS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3471915,
+                "republican_total": 2446891
+            },
+            {
+                "state": "INDIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1242416,
+                "republican_total": 1729519
+            },
+            {
+                "state": "IOWA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 759061,
+                "republican_total": 897672
+            },
+            {
+                "state": "KANSAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 570323,
+                "republican_total": 771406
+            },
+            {
+                "state": "KENTUCKY",
+                "winner": "REPUBLICAN",
+                "democrat_total": 772474,
+                "republican_total": 1326646
+            },
+            {
+                "state": "LOUISIANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 856034,
+                "republican_total": 1255776
+            },
+            {
+                "state": "MAINE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 435072,
+                "republican_total": 360737
+            },
+            {
+                "state": "MARYLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1985023,
+                "republican_total": 976414
+            },
+            {
+                "state": "MASSACHUSETTS",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2382202,
+                "republican_total": 1167202
+            },
+            {
+                "state": "MICHIGAN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2804040,
+                "republican_total": 2649852
+            },
+            {
+                "state": "MINNESOTA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1717077,
+                "republican_total": 1484065
+            },
+            {
+                "state": "MISSISSIPPI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 539398,
+                "republican_total": 756764
+            },
+            {
+                "state": "MISSOURI",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1253014,
+                "republican_total": 1718736
+            },
+            {
+                "state": "MONTANA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 244786,
+                "republican_total": 343602
+            },
+            {
+                "state": "NEBRASKA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 374583,
+                "republican_total": 556846
+            },
+            {
+                "state": "NEVADA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 703486,
+                "republican_total": 669890
+            },
+            {
+                "state": "NEW HAMPSHIRE",
+                "winner": "DEMOCRAT",
+                "democrat_total": 424921,
+                "republican_total": 365654
+            },
+            {
+                "state": "NEW JERSEY",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2608335,
+                "republican_total": 1883274
+            },
+            {
+                "state": "NEW MEXICO",
+                "winner": "DEMOCRAT",
+                "democrat_total": 501614,
+                "republican_total": 401894
+            },
+            {
+                "state": "NEW YORK",
+                "winner": "DEMOCRAT",
+                "democrat_total": 5230985,
+                "republican_total": 3244798
+            },
+            {
+                "state": "NORTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2684292,
+                "republican_total": 2758773
+            },
+            {
+                "state": "NORTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 114902,
+                "republican_total": 235595
+            },
+            {
+                "state": "OHIO",
+                "winner": "REPUBLICAN",
+                "democrat_total": 2679165,
+                "republican_total": 3154834
+            },
+            {
+                "state": "OKLAHOMA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 503890,
+                "republican_total": 1020280
+            },
+            {
+                "state": "OREGON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1340383,
+                "republican_total": 958448
+            },
+            {
+                "state": "PENNSYLVANIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 3458229,
+                "republican_total": 3377674
+            },
+            {
+                "state": "RHODE ISLAND",
+                "winner": "DEMOCRAT",
+                "democrat_total": 307486,
+                "republican_total": 199922
+            },
+            {
+                "state": "SOUTH CAROLINA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1091541,
+                "republican_total": 1385103
+            },
+            {
+                "state": "SOUTH DAKOTA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 150471,
+                "republican_total": 261043
+            },
+            {
+                "state": "TENNESSEE",
+                "winner": "REPUBLICAN",
+                "democrat_total": 1143711,
+                "republican_total": 1852475
+            },
+            {
+                "state": "TEXAS",
+                "winner": "REPUBLICAN",
+                "democrat_total": 5259126,
+                "republican_total": 5890347
+            },
+            {
+                "state": "UTAH",
+                "winner": "REPUBLICAN",
+                "democrat_total": 560282,
+                "republican_total": 865140
+            },
+            {
+                "state": "VERMONT",
+                "winner": "DEMOCRAT",
+                "democrat_total": 242820,
+                "republican_total": 112704
+            },
+            {
+                "state": "VIRGINIA",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2413568,
+                "republican_total": 1962430
+            },
+            {
+                "state": "WASHINGTON",
+                "winner": "DEMOCRAT",
+                "democrat_total": 2369612,
+                "republican_total": 1584651
+            },
+            {
+                "state": "WEST VIRGINIA",
+                "winner": "REPUBLICAN",
+                "democrat_total": 235984,
+                "republican_total": 545382
+            },
+            {
+                "state": "WISCONSIN",
+                "winner": "DEMOCRAT",
+                "democrat_total": 1630866,
+                "republican_total": 1610184
+            },
+            {
+                "state": "WYOMING",
+                "winner": "REPUBLICAN",
+                "democrat_total": 73491,
+                "republican_total": 193559
+            }
+        ]
+    }
+]
