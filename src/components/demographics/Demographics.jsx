@@ -2,6 +2,8 @@ import Card from "@mui/material/Card";
 import { CardContent } from "@mui/material";
 import { loadData } from "../../utils";
 // import { ResponsiveBar } from "@nivo/bar";
+import { Chart } from "react-google-charts";
+// import { Bar } from "react-chartjs-2";
 
 export default function Demographics(props) {
   const data = loadData(true, "S#", "Gender", "Race_encoded", "Age");
@@ -71,8 +73,74 @@ export default function Demographics(props) {
           minHeight: 300,
         }}
       >
-        <CardContent style={{ height: 100, width: 150 }}>gender, race</CardContent>
+        <CardContent style={{ height: 100, width: 150 }}>
+          gender
+          <Chart
+            width={"300px"}
+            height={"50px"}
+            chartType="BarChart"
+            loader={<div>Loading Gender Chart</div>}
+            data={[
+              ["", ...Object.keys(gender)],
+              [
+                "",
+                ...Object.values(gender).map(
+                  (item) => item / Object.values(gender).reduce((p, c) => p + c)
+                ),
+              ],
+            ]}
+            options={{
+              title: null,
+              chartArea: { width: "100%", height: "20%" },
+              isStacked: true,
+              hAxis: null,
+              // {
+              //   title: 'Total Population',
+              //   minValue: 0,
+              // },
+              vAxis: null,
+              //  {
+              //   title: 'City',
+              // },
+            }}
+            // For tests
+            // rootProps={{ 'data-testid': '3' }}
+          />
+          race
+          <Chart
+            width={"300px"}
+            height={"50px"}
+            chartType="BarChart"
+            loader={<div>Loading Race Chart</div>}
+            data={[
+              ["", ...Object.keys(race)],
+              [
+                "",
+                ...Object.values(race).map(
+                  (item) => item / Object.values(race).reduce((p, c) => p + c)
+                ),
+              ],
+            ]}
+            options={{
+              title: null,
+              chartArea: { width: "100%", height: "20%" },
+              isStacked: true,
+              hAxis: null,
+              // {
+              //   title: 'Total Population',
+              //   minValue: 0,
+              // },
+              vAxis: null,
+              //  {
+              //   title: 'City',
+              // },
+            }}
+            // For tests
+            // rootProps={{ 'data-testid': '3' }}
+          />
+        </CardContent>
         <CardContent style={{ height: 140, width: 150 }}>
+          age
           {/* <ResponsiveBar
             data={age}
             keys={[ 'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
