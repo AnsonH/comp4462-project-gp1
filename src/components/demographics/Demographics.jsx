@@ -1,17 +1,16 @@
-import { Card } from "@mui/material";
+import Card from "@mui/material/Card";
 
 export default function Demographics(props) {
   return (
-    <Card style={props.style}>
+    <Card style={props.style} variant="outlined">
       <div
         style={{
-          backgroundColor: "blue",
-          width: 360,
-          height: 150,
-          maxHeight: "100%",
-          display: "flex",
+          backgroundColor: "pink",
+          minHeight: 150,
         }}
-      ></div>
+      >
+        Demographics
+      </div>
     </Card>
   );
 }

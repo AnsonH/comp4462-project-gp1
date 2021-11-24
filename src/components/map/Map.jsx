@@ -1,25 +1,11 @@
-import { getShootingByID, loadData } from "../../utils/index";
-import { Card } from "@mui/material";
+import { getShootingByID, loadData } from "../../utils";
+import Card from "@mui/material/Card";
 
-export default function Map(props) {
-  const data = loadData(false, "Mental Health Issues", "Race", "Gender");
+export default function Map({ yearRange }) {
   return (
-    <Card style={props.style}>
-      {/* {data.map((shooting) => (
-        <p style={{ fontSize: shooting.Injured + 10 }}>
-          {shooting["S#"] + ": " + shooting.Title}
-        </p>
-      ))} */}
-      <div
-        style={{
-          backgroundColor: "green",
-          width: "100%",
-          height: 300,
-          maxHeight: "100%",
-          display: "flex",
-        }}
-      >
-        Map
+    <Card style={{ minHeight: 300 }} variant="outlined">
+      <div>
+        Map: {yearRange[0]} ~ {yearRange[1]}
       </div>
     </Card>
   );

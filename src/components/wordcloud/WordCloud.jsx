@@ -2,16 +2,15 @@ import { Card } from "@mui/material";
 
 export default function WordCloud(props) {
   return (
-    <Card style={props.style}>
+    <Card style={props.style} variant="outlined">
       <div
         style={{
           backgroundColor: "orange",
-          width: 360,
-          height: 150,
-          maxHeight: "100%",
-          display: "flex",
+          minHeight: 150,
         }}
-      ></div>
+      >
+        Word Cloud
+      </div>
     </Card>
   );
 }
