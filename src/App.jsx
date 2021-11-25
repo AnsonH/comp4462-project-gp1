@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Grid from "@mui/material/Grid";
 import Map from "./components/map/Map";
-import WordCloud from "./components/wordcloud/WordCloud";
+import Word_Cloud from "./components/wordcloud/Word_Cloud";
 import Demographics from "./components/demographics/Demographics";
 
 function App() {
@@ -21,10 +21,10 @@ function App() {
         </Grid>
         <Grid item xs={5} container direction="column" spacing={2}>
           <Grid item>
-            <WordCloud />
+            <Word_Cloud yearRange={yearRange} style={{ height: "100%" }} />
           </Grid>
           <Grid item>
-            <Demographics />
+            <Demographics yearRange={yearRange} style={{ height: "100%" }} />
           </Grid>
         </Grid>
       </Grid>
