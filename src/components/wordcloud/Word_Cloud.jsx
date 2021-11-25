@@ -2,6 +2,7 @@ import { Card, CardContent } from "@mui/material";
 import * as d3 from "d3";
 import WordCloud from "react-d3-cloud";
 import { loadData, filterYear } from "../../utils";
+import WordCloudLegend from "./WordCloudLegend";
 
 const synonyms = {
   Party: ["party"],
@@ -41,6 +42,18 @@ const rawData = loadData(true, "S#", "Title", "Date", "Incident Area", "Summary"
 
 function handleMouseOut(d) {
   d3.select("#story-titles").remove();
+}
+
+function getWordColor(proportion) {
+  if (proportion >= 0.3) {
+    return "#6D0909";
+  } else if (proportion >= 0.2) {
+    return "#B41717";
+  } else if (proportion >= 0.02) {
+    return "#D15151";
+  } else {
+    return "#E27C7C";
+  }
 }
 
 export default function Word_Cloud(props) {
@@ -162,6 +175,7 @@ export default function Word_Cloud(props) {
   });
 
   console.log("words", words);
+  console.log("filterByVenue", filterByVenue);
 
   return (
     <Card style={props.style} variant="outlined">
@@ -173,6 +187,7 @@ export default function Word_Cloud(props) {
           height={100}
           font="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'"
           fontSize={(word) => 10 + word.proportion * 100}
+          fill={(word) => getWordColor(word.proportion)}
           rotate={0}
           random={() => 1}
           onWordClick={(event, d) => {
@@ -189,6 +204,7 @@ export default function Word_Cloud(props) {
             handleMouseOut(d);
           }}
         />
+        <WordCloudLegend style={{ margin: "15px 0 0 5px" }} />
       </CardContent>
     </Card>
   );
