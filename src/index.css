@@ -6,6 +6,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+  margin-top: 0;
+  font-size: 26px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.map-tooltip p {
+  margin: 0;
 }

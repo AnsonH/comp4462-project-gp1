@@ -1,4 +1,22 @@
-const data = require("../data/mass_shootings.json");
+import massShootData from "../data/mass_shootings.json";
+import usElectionData from "../data/us_election.json";
+
+/**
+ * Filter mass shooting data by time range.
+ * @param {object[]} shootingData Mass shooting data
+ * @param {[number, number]} range Year range
+ */
+export function filterYear(shootingData, range = [1966, 2017]) {
+  const filteredData = [];
+  shootingData.forEach((shooting) => {
+    const year = parseInt(shooting["Date"].slice(-4));
+    if (range[0] <= year && year <= range[1]) {
+      filteredData.push(shooting);
+    }
+  });
+
+  return filteredData;
+}
 
 /**
  * Load a copy of the mass shooting JSON data with specified keys being kept/discarded.
@@ -13,8 +31,8 @@ export function loadData(include = true, ...keys) {
       --i;
     }
   }
-  if (keys.length === 0) return data;
-  return data.map((shooting) =>
+  if (keys.length === 0) return massShootData;
+  return massShootData.map((shooting) =>
     Object.fromEntries(
       Object.entries(shooting).filter(([key, value]) =>
         include ? keys.includes(key) : !keys.includes(key)
@@ -28,5 +46,5 @@ export function loadData(include = true, ...keys) {
  * @param {number} S_id Shooting incident ID. Corresponds to `S#` key in mass shooting JSON.
  */
 export function getShootingByID(S_id) {
-  return data.find((shooting) => shooting["S#"] === S_id);
+  return massShootData.find((shooting) => shooting["S#"] === S_id);
 }
