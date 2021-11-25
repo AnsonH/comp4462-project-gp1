@@ -15,9 +15,6 @@ function App() {
           <Grid item>
             <Map yearRange={yearRange} setYearRange={setYearRange} />
           </Grid>
-          {/* <Grid item>
-            <Map />
-          </Grid> */}
         </Grid>
         <Grid item xs={5} container direction="column" spacing={2}>
           <Grid item>

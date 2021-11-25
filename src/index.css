@@ -6,6 +6,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  color: #850d0d;
+}
+
 h2 {
   margin-top: 0;
   font-size: 26px;
