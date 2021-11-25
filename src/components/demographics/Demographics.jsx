@@ -1,5 +1,4 @@
-import Card from "@mui/material/Card";
-import { CardContent } from "@mui/material";
+import { Card, CardContent } from "@mui/material";
 import { loadData } from "../../utils";
 // import { ResponsiveBar } from "@nivo/bar";
 import { Chart } from "react-google-charts";
@@ -23,7 +22,7 @@ export default function Demographics(props) {
   for (let [key, value] of Object.entries(gender)) {
     _gender.push({ gender: key, freq: value });
   }
-  console.log(_gender);
+  console.log("_gender", _gender);
 
   const race_list = data
     .map((item) => item["Race_encoded"])
@@ -56,92 +55,76 @@ export default function Demographics(props) {
   console.log(_age);
 
   return (
-    <Card style={props.style} variant="outlined">
-      <h2
-        style={{
-          paddingLeft: 15,
-          paddingTop: 10,
-          paddingBottom: 10,
-          marginTop: 0,
-          marginBottom: 0,
-        }}
-      >
-        Demographics
-      </h2>
-      <div
-        style={{
-          minHeight: 300,
-        }}
-      >
-        <CardContent style={{ height: 100, width: 150 }}>
-          gender
-          <Chart
-            width={"300px"}
-            height={"50px"}
-            chartType="BarChart"
-            loader={<div>Loading Gender Chart</div>}
-            data={[
-              ["", ...Object.keys(gender)],
-              [
-                "",
-                ...Object.values(gender).map(
-                  (item) => item / Object.values(gender).reduce((p, c) => p + c)
-                ),
-              ],
-            ]}
-            options={{
-              title: null,
-              chartArea: { width: "100%", height: "20%" },
-              isStacked: true,
-              hAxis: null,
-              // {
-              //   title: 'Total Population',
-              //   minValue: 0,
-              // },
-              vAxis: null,
-              //  {
-              //   title: 'City',
-              // },
-            }}
-            // For tests
-            // rootProps={{ 'data-testid': '3' }}
-          />
-          race
-          <Chart
-            width={"300px"}
-            height={"50px"}
-            chartType="BarChart"
-            loader={<div>Loading Race Chart</div>}
-            data={[
-              ["", ...Object.keys(race)],
-              [
-                "",
-                ...Object.values(race).map(
-                  (item) => item / Object.values(race).reduce((p, c) => p + c)
-                ),
-              ],
-            ]}
-            options={{
-              title: null,
-              chartArea: { width: "100%", height: "20%" },
-              isStacked: true,
-              hAxis: null,
-              // {
-              //   title: 'Total Population',
-              //   minValue: 0,
-              // },
-              vAxis: null,
-              //  {
-              //   title: 'City',
-              // },
-            }}
-            // For tests
-            // rootProps={{ 'data-testid': '3' }}
-          />
-        </CardContent>
-        <CardContent style={{ height: 140, width: 150 }}>
-          age
-          {/* <ResponsiveBar
+    <Card style={{ minHeight: 300 }} variant="outlined">
+      <CardContent>
+        <h2>Demographics</h2>
+        gender
+        <Chart
+          width={"300px"}
+          height={"50px"}
+          chartType="BarChart"
+          loader={<div>Loading Gender Chart</div>}
+          data={[
+            ["", ...Object.keys(gender)],
+            [
+              "",
+              ...Object.values(gender).map(
+                (item) => item / Object.values(gender).reduce((p, c) => p + c)
+              ),
+            ],
+          ]}
+          options={{
+            title: null,
+            chartArea: { width: "100%", height: "20%" },
+            isStacked: true,
+            hAxis: null,
+            // {
+            //   title: 'Total Population',
+            //   minValue: 0,
+            // },
+            vAxis: null,
+            //  {
+            //   title: 'City',
+            // },
+          }}
+          // For tests
+          // rootProps={{ 'data-testid': '3' }}
+        />
+        race
+        <Chart
+          width={"300px"}
+          height={"50px"}
+          chartType="BarChart"
+          loader={<div>Loading Race Chart</div>}
+          data={[
+            ["", ...Object.keys(race)],
+            [
+              "",
+              ...Object.values(race).map(
+                (item) => item / Object.values(race).reduce((p, c) => p + c)
+              ),
+            ],
+          ]}
+          options={{
+            title: null,
+            chartArea: { width: "100%", height: "20%" },
+            isStacked: true,
+            hAxis: null,
+            // {
+            //   title: 'Total Population',
+            //   minValue: 0,
+            // },
+            vAxis: null,
+            //  {
+            //   title: 'City',
+            // },
+          }}
+          // For tests
+          // rootProps={{ 'data-testid': '3' }}
+        />
+      </CardContent>
+      age
+      {/* <ResponsiveBar
             data={age}
             keys={[ 'hot dog', 'burger', 'sandwich', 'kebab', 'fries', 'donut' ]}
             indexBy="country"
@@ -234,8 +217,6 @@ export default function Demographics(props) {
             ariaLabel="Nivo bar chart demo"
             barAriaLabel={function(e){return e.id+": "+e.formattedValue+" in country: "+e.indexValue}}
           /> */}
-        </CardContent>
-      </div>
     </Card>
   );
 }

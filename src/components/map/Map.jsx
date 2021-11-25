@@ -8,7 +8,7 @@ import { ResponsivePie } from "@nivo/pie";
 import { CircleMarker, MapContainer, TileLayer, Tooltip } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { filterYear, loadData } from "../../utils";
-import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/map";
+import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/usMap";
 import BubbleLegend from "./BubbleLegend";
 
 const LegendH3 = styled.h3`

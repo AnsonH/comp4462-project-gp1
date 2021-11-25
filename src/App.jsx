@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import Map from "./components/map/Map";
 import Word_Cloud from "./components/wordcloud/Word_Cloud";
 import Demographics from "./components/demographics/Demographics";
+import Demographics2 from "./components/demographics/Demographics2";
 
 function App() {
   const [yearRange, setYearRange] = useState([1966, 2017]);
@@ -21,7 +22,7 @@ function App() {
             <Word_Cloud yearRange={yearRange} />
           </Grid>
           <Grid item>
-            <Demographics yearRange={yearRange} />
+            <Demographics2 yearRange={yearRange} />
           </Grid>
         </Grid>
       </Grid>
