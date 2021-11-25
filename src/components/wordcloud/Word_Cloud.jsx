@@ -1,9 +1,65 @@
-import { Card } from "@mui/material";
+import { Card, CardContent } from "@mui/material";
 import * as d3 from "d3";
 import WordCloud from "react-d3-cloud";
-import { loadData, getShootingByID } from "../../utils";
+import { loadData, filterYear } from "../../utils";
+
+const synonyms = {
+  Party: ["party"],
+  Restaurant: ["restaurant", "cafeteria", "cafe", "coffee shop"],
+  Home: [
+    "home",
+    "house",
+    "family",
+    "mother",
+    "father",
+    "child",
+    "son",
+    "daughter",
+    "apartment",
+  ],
+  "Drive-by": ["drive-by", "drive by"],
+  Club: ["club", "bar", "pub"],
+  School: ["school", "teacher", "student", "university", "college"],
+  Street: ["street", "sidewalk", "roadside"],
+  "Gas station": ["gas station"],
+  "Post office": ["post office"],
+  Church: ["church", "temple", "mosque"],
+  Mall: ["mall", "shopping", "macy's", "plaza"],
+  "Public facilities": [
+    "public facilities",
+    "city hall",
+    "army",
+    "government",
+    "township",
+    "navy",
+    "train",
+    "airport",
+  ],
+};
+
+const rawData = loadData(true, "S#", "Title", "Date", "Incident Area", "Summary", "NER");
+
+function handleMouseOut(d) {
+  d3.select("#story-titles").remove();
+}
 
 export default function Word_Cloud(props) {
+  const words = [
+    { text: "Party", value: 0 },
+    { text: "Restaurant", value: 0 },
+    { text: "Home", value: 0 },
+    { text: "Drive-by", value: 0 },
+    { text: "Club", value: 0 },
+    { text: "School", value: 0 },
+    { text: "Street", value: 0 },
+    { text: "Gas station", value: 0 },
+    { text: "Post office", value: 0 },
+    { text: "Church", value: 0 },
+    { text: "Mall", value: 0 },
+    { text: "Public facilities", value: 0 },
+    { text: "Others", value: 0 },
+  ];
+
   function handleMouseClick(d) {}
 
   // function handleMouseOver(d) {
@@ -35,64 +91,10 @@ export default function Word_Cloud(props) {
   //                 .attr('class', 'label-background-strong');
   // }
 
-  function handleMouseOut(d) {
-    d3.select("#story-titles").remove();
-  }
-
   function addValue(txt) {
     const element = words.find((item) => item.text === txt);
     element.value = element.value + 1;
   }
-
-  const synonyms = {
-    Party: ["party"],
-    Restaurant: ["restaurant", "cafeteria", "cafe", "coffee shop"],
-    Home: [
-      "home",
-      "house",
-      "family",
-      "mother",
-      "father",
-      "child",
-      "son",
-      "daughter",
-      "apartment",
-    ],
-    "Drive-by": ["drive-by", "drive by"],
-    Club: ["club", "bar", "pub"],
-    School: ["school", "teacher", "student", "university", "college"],
-    Street: ["street", "sidewalk", "roadside"],
-    "Gas station": ["gas station"],
-    "Post office": ["post office"],
-    Church: ["church", "temple", "mosque"],
-    Mall: ["mall", "shopping", "macy's", "plaza"],
-    "Public facilities": [
-      "public facilities",
-      "city hall",
-      "army",
-      "government",
-      "township",
-      "navy",
-      "train",
-      "airport",
-    ],
-  };
-
-  const words = [
-    { text: "Party", value: 0 },
-    { text: "Restaurant", value: 0 },
-    { text: "Home", value: 0 },
-    { text: "Drive-by", value: 0 },
-    { text: "Club", value: 0 },
-    { text: "School", value: 0 },
-    { text: "Street", value: 0 },
-    { text: "Gas station", value: 0 },
-    { text: "Post office", value: 0 },
-    { text: "Church", value: 0 },
-    { text: "Mall", value: 0 },
-    { text: "Public facilities", value: 0 },
-    { text: "Others", value: 0 },
-  ];
 
   const filterByVenue = {
     Party: [],
@@ -111,11 +113,11 @@ export default function Word_Cloud(props) {
   };
 
   // calculate word cloud text size
-  const data = loadData(true, "S#", "Title", "Incident Area", "Summary", "NER");
+  const filteredData = filterYear(rawData, props.yearRange);
   const locations = Object.keys(synonyms);
-  for (let i in data) {
+  for (let i in filteredData) {
     let counted = false;
-    const shooting = data[i];
+    const shooting = filteredData[i];
     for (let j in locations) {
       const loc = locations[j];
       if (
@@ -152,35 +154,27 @@ export default function Word_Cloud(props) {
     }
   }
 
-  console.log(filterByVenue["Others"].map((idx) => getShootingByID(idx)["Title"]));
+  // Calculate the proportion
+  const totalCount = words.reduce((acc, word) => (acc += word.value), 0);
+  words.forEach((word) => {
+    // Add new property called `proportion`
+    word.proportion = word.value / totalCount;
+  });
+
+  console.log("words", words);
 
   return (
     <Card style={props.style} variant="outlined">
-      <h2
-        style={{
-          paddingLeft: 15,
-          paddingTop: 10,
-          paddingBottom: 10,
-          marginTop: 0,
-          marginBottom: 0,
-        }}
-      >
-        Word Cloud
-      </h2>
-      <div
-        style={{
-          minHeight: 280,
-          marginTop: -120,
-          marginLeft: -350,
-        }}
-      >
+      <CardContent>
+        <h2>Places of Shooting</h2>
         <WordCloud
           data={words}
-          width={550}
-          height={180}
-          fontSize={(word) => word.value * 0.26 + 5}
+          width={300}
+          height={100}
+          font="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'"
+          fontSize={(word) => 10 + word.proportion * 100}
           rotate={0}
-          random={(e) => 1}
+          random={() => 1}
           onWordClick={(event, d) => {
             // set global state
             console.log(`onWordClick: ${d.text}`);
@@ -195,7 +189,7 @@ export default function Word_Cloud(props) {
             handleMouseOut(d);
           }}
         />
-      </div>
+      </CardContent>
     </Card>
   );
 }

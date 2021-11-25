@@ -18,10 +18,10 @@ function App() {
         </Grid>
         <Grid item xs={5} container direction="column" spacing={2}>
           <Grid item>
-            <Word_Cloud yearRange={yearRange} style={{ height: "100%" }} />
+            <Word_Cloud yearRange={yearRange} />
           </Grid>
           <Grid item>
-            <Demographics yearRange={yearRange} style={{ height: "100%" }} />
+            <Demographics yearRange={yearRange} />
           </Grid>
         </Grid>
       </Grid>
