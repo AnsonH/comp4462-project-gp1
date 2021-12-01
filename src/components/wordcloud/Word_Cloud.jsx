@@ -195,7 +195,7 @@ export default function Word_Cloud(props) {
           width={300}
           height={100}
           font="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'"
-          fontSize={(word) => 10 + word.proportion * 100}
+          fontSize={(word) => (word.value === 0 ? 0 : 10 + word.proportion * 100)}
           fill={(word) => getWordColor(word.proportion)}
           rotate={0}
           random={() => 1}
