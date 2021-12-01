@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styled from "@emotion/styled";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
@@ -7,7 +8,7 @@ import Slider from "@mui/material/Slider";
 import { ResponsivePie } from "@nivo/pie";
 import { CircleMarker, MapContainer, TileLayer, Tooltip } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { filterYearsState, loadData } from "../../utils";
+import { filterYearsState, getShootingByID, loadData } from "../../utils";
 import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/usMap";
 import BubbleLegend from "./BubbleLegend";
 
@@ -26,6 +27,8 @@ const fullData = loadData();
 export default function Map({ yearRange, setYearRange, usState, setUsState }) {
   const data = filterYearsState(fullData, yearRange, usState);
   const pieChartData = getPieChartData(data);
+  // const [mapCenter, setMapCenter] = useState([38, -98]);
+  // const [mapZoom, setMapZoom] = useState(4);
 
   const PieChartCenterText = ({ dataWithArc, centerX, centerY }) => {
     let total = 0;
@@ -53,6 +56,21 @@ export default function Map({ yearRange, setYearRange, usState, setUsState }) {
     setYearRange(newYearRange);
   };
 
+  // returns state coordinates by taking cluster mean of given coordinates by state
+  function stateCenter() {
+    if (usState === "") return [38, -98];
+
+    const lats = data.map((shooting) => shooting["Coordinates"][0]);
+    const longs = data.map((shooting) => shooting["Coordinates"][1]);
+    if (lats.length === 0) return [38, -98];
+
+    return [
+      lats.reduce((a, b) => a + b, 0) / lats.length,
+      longs.reduce((a, b) => a + b, 0) / longs.length,
+    ];
+  }
+  // const mapCenter = stateCenter();
+
   return (
     <Card variant="outlined">
       <CardContent>
@@ -62,8 +80,12 @@ export default function Map({ yearRange, setYearRange, usState, setUsState }) {
             <Grid item style={{ height: 350 }}>
               <MapContainer
                 style={{ height: 350 }}
-                center={[38, -98]}
-                zoom={4}
+                center={stateCenter()}
+                zoom={
+                  usState === "" || (stateCenter()[0] === 38 && stateCenter()[1] === -98)
+                    ? 4
+                    : 5
+                }
                 minZoom={3}
                 maxZoom={12}
               >
