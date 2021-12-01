@@ -155,6 +155,29 @@ export default function ParallelCoordinate({ yearRange, usState }) {
               colors={(item) => {
                 return getStanceColor(getPoliticalStance(item["S#"]));
               }}
+              lineOpacity={0.04}
+              theme={{
+                axis: {
+                  domain: {
+                    line: {
+                      stroke: "#777777",
+                      strokeWidth: 2,
+                    },
+                  },
+                  // "ticks": {
+                  //     "line": {
+                  //         "stroke": "#777777",
+                  //         "strokeWidth": 1
+                  //     }
+                  // }
+                },
+                // "grid": {
+                //     "line": {
+                //         "stroke": "#dddddd",
+                //         "strokeWidth": 1
+                //     }
+                // }
+              }}
             />
           </Grid>
           <Grid item></Grid>
