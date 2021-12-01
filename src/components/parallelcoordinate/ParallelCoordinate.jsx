@@ -155,7 +155,7 @@ export default function ParallelCoordinate({ yearRange, usState }) {
               colors={(item) => {
                 return getStanceColor(getPoliticalStance(item["S#"]));
               }}
-              lineOpacity={0.04}
+              lineOpacity={12 / data.length}
               theme={{
                 axis: {
                   domain: {
