@@ -6,11 +6,11 @@ import usElectionData from "../data/us_election.json";
  * @param {object[]} shootingData Mass shooting data
  * @param {[number, number]} range Year range
  */
-export function filterYear(shootingData, range = [1966, 2017]) {
+export function filterYearsState(shootingData, range = [1966, 2017], usState = "") {
   const filteredData = [];
   shootingData.forEach((shooting) => {
     const year = parseInt(shooting["Date"].slice(-4));
-    if (range[0] <= year && year <= range[1]) {
+    if (range[0] <= year && year <= range[1] && shooting.State.includes(usState)) {
       filteredData.push(shooting);
     }
   });

@@ -7,7 +7,7 @@ import Slider from "@mui/material/Slider";
 import { ResponsivePie } from "@nivo/pie";
 import { CircleMarker, MapContainer, TileLayer, Tooltip } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { filterYear, loadData } from "../../utils";
+import { filterYearsState, loadData } from "../../utils";
 import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/usMap";
 import BubbleLegend from "./BubbleLegend";
 
@@ -23,8 +23,8 @@ const YearRangeLegend = styled.p`
 
 const fullData = loadData();
 
-export default function Map({ yearRange, setYearRange }) {
-  const data = filterYear(fullData, yearRange);
+export default function Map({ yearRange, setYearRange, usState, setUsState }) {
+  const data = filterYearsState(fullData, yearRange, usState);
   const pieChartData = getPieChartData(data);
 
   const PieChartCenterText = ({ dataWithArc, centerX, centerY }) => {
@@ -108,7 +108,7 @@ export default function Map({ yearRange, setYearRange }) {
               justifyContent="center"
               spacing={3}
             >
-              <Grid item>
+              {/* <Grid item>
                 <YearRangeLegend>Year Range:</YearRangeLegend>
               </Grid>
               <Grid item>
@@ -121,7 +121,7 @@ export default function Map({ yearRange, setYearRange }) {
                     valueLabelDisplay="on"
                   />
                 </Box>
-              </Grid>
+              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={3} container direction="column" alignItems="center" spacing={3}>

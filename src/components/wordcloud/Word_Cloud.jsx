@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@mui/material";
 import * as d3 from "d3";
 import WordCloud from "react-d3-cloud";
-import { loadData, filterYear } from "../../utils";
+import { loadData, filterYearsState } from "../../utils";
 import WordCloudLegend from "./WordCloudLegend";
 
 const synonyms = {
@@ -38,7 +38,16 @@ const synonyms = {
   ],
 };
 
-const rawData = loadData(true, "S#", "Title", "Date", "Incident Area", "Summary", "NER");
+const rawData = loadData(
+  true,
+  "S#",
+  "Title",
+  "Date",
+  "State",
+  "Incident Area",
+  "Summary",
+  "NER"
+);
 
 function handleMouseOut(d) {
   d3.select("#story-titles").remove();
@@ -126,7 +135,7 @@ export default function Word_Cloud(props) {
   };
 
   // calculate word cloud text size
-  const filteredData = filterYear(rawData, props.yearRange);
+  const filteredData = filterYearsState(rawData, props.yearRange, props.usState);
   const locations = Object.keys(synonyms);
   for (let i in filteredData) {
     let counted = false;
@@ -174,8 +183,8 @@ export default function Word_Cloud(props) {
     word.proportion = word.value / totalCount;
   });
 
-  console.log("words", words);
-  console.log("filterByVenue", filterByVenue);
+  // console.log("words", words);
+  // console.log("filterByVenue", filterByVenue);
 
   return (
     <Card style={props.style} variant="outlined">

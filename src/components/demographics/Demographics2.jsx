@@ -1,12 +1,12 @@
 import { Card, CardContent, Grid } from "@mui/material";
 import { ResponsiveRadar } from "@nivo/radar";
-import { filterYear, loadData } from "../../utils";
+import { filterYearsState, loadData } from "../../utils";
 import { getRaceData } from "../../utils/demographics";
 
-const rawData = loadData(true, "S#", "Date", "Gender", "Race_encoded", "Age");
+const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
 
-export default function Demographics({ yearRange }) {
-  const data = filterYear(rawData, yearRange);
+export default function Demographics({ yearRange, usState }) {
+  const data = filterYearsState(rawData, yearRange, usState);
   const raceData = getRaceData(data);
 
   // const age_list = data
