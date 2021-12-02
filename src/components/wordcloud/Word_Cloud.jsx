@@ -3,40 +3,7 @@ import * as d3 from "d3";
 import WordCloud from "react-d3-cloud";
 import { loadData, filterYearsState } from "../../utils";
 import WordCloudLegend from "./WordCloudLegend";
-
-const synonyms = {
-  Party: ["party"],
-  Restaurant: ["restaurant", "cafeteria", "cafe", "coffee shop"],
-  Home: [
-    "home",
-    "house",
-    "family",
-    "mother",
-    "father",
-    "child",
-    "son",
-    "daughter",
-    "apartment",
-  ],
-  "Drive-by": ["drive-by", "drive by"],
-  Club: ["club", "bar", "pub"],
-  School: ["school", "teacher", "student", "university", "college"],
-  Street: ["street", "sidewalk", "roadside"],
-  "Gas station": ["gas station"],
-  "Post office": ["post office"],
-  Church: ["church", "temple", "mosque"],
-  Mall: ["mall", "shopping", "macy's", "plaza"],
-  "Public facilities": [
-    "public facilities",
-    "city hall",
-    "army",
-    "government",
-    "township",
-    "navy",
-    "train",
-    "airport",
-  ],
-};
+import placeSynonyms from "../../constants/placeSynonyms";
 
 const rawData = loadData(
   true,
@@ -136,27 +103,27 @@ export default function Word_Cloud(props) {
 
   // calculate word cloud text size
   const filteredData = filterYearsState(rawData, props.yearRange, props.usState);
-  const locations = Object.keys(synonyms);
+  const locations = Object.keys(placeSynonyms);
   for (let i in filteredData) {
     let counted = false;
     const shooting = filteredData[i];
     for (let j in locations) {
       const loc = locations[j];
       if (
-        synonyms[loc]
+        placeSynonyms[loc]
           .map((item) => shooting["Title"].toLowerCase().includes(item))
           .includes(true) ||
-        synonyms[loc]
+        placeSynonyms[loc]
           .map((item) =>
             shooting["Incident Area"]
               ? shooting["Incident Area"].toLowerCase().includes(item)
               : false
           )
           .includes(true) ||
-        synonyms[loc]
+        placeSynonyms[loc]
           .map((item) => shooting["Summary"].toLowerCase().includes(item))
           .includes(true) ||
-        synonyms[loc]
+        placeSynonyms[loc]
           .map((item) =>
             shooting["NER"]
               ? JSON.stringify(shooting["NER"]).toLowerCase().includes(item)
@@ -182,9 +149,6 @@ export default function Word_Cloud(props) {
     // Add new property called `proportion`
     word.proportion = word.value / totalCount;
   });
-
-  // console.log("words", words);
-  // console.log("filterByVenue", filterByVenue);
 
   return (
     <Card style={props.style} variant="outlined">

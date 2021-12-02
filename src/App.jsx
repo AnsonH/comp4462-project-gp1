@@ -14,7 +14,6 @@ function App() {
 
   return (
     <div>
-      {/* <h1>US Mass Shooting Overview</h1> */}
       <DropdownMenu
         yearRange={yearRange}
         setYearRange={setYearRange}

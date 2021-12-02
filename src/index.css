@@ -20,6 +20,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.map-tooltip {
+  width: 320px;
+  white-space: normal;
+}
+
 .map-tooltip p {
   margin: 0;
+}
+
+.map-tooltip .summary {
+  margin-top: 10px;
+  font-size: 10px;
+  line-height: 1.15;
 }

@@ -17,14 +17,9 @@ const LegendH3 = styled.h3`
   margin: 0;
 `;
 
-const YearRangeLegend = styled.p`
-  font-size: 16px;
-  margin: 0 10px 0 0;
-`;
-
 const fullData = loadData();
 
-export default function Map({ yearRange, setYearRange, usState, setUsState }) {
+export default function Map({ yearRange, usState, setUsState }) {
   const data = filterYearsState(fullData, yearRange, usState);
   const pieChartData = getPieChartData(data);
   // const [mapCenter, setMapCenter] = useState([38, -98]);
@@ -52,10 +47,6 @@ export default function Map({ yearRange, setYearRange, usState, setUsState }) {
     );
   };
 
-  const handleSliderChange = (event, newYearRange) => {
-    setYearRange(newYearRange);
-  };
-
   // returns state coordinates by taking cluster mean of given coordinates by state
   function stateCenter() {
     if (usState === "") return [38, -98];
@@ -69,7 +60,6 @@ export default function Map({ yearRange, setYearRange, usState, setUsState }) {
       longs.reduce((a, b) => a + b, 0) / longs.length,
     ];
   }
-  // const mapCenter = stateCenter();
 
   return (
     <Card variant="outlined">
@@ -110,40 +100,17 @@ export default function Map({ yearRange, setYearRange, usState, setUsState }) {
                         <div className="map-tooltip">
                           <strong>{shooting["Title"]}</strong>
                           <p>Date: {shooting["Date"]}</p>
-                          <p>Total victims: {shooting["Total victims"]}</p>
                           <p>
-                            Fatalities: {shooting["Fatalities"]} ; Injured:{" "}
-                            {shooting["Injured"]}
+                            Total victims: {shooting["Total victims"]} (Fatalities:{" "}
+                            {shooting["Fatalities"]} ; Injured: {shooting["Injured"]})
                           </p>
+                          <p className="summary">{shooting["Summary"]}</p>
                         </div>
                       </Tooltip>
                     </CircleMarker>
                   );
                 })}
               </MapContainer>
-            </Grid>
-            <Grid
-              item
-              style={{ marginTop: 30 }}
-              container
-              direction="row"
-              justifyContent="center"
-              spacing={3}
-            >
-              {/* <Grid item>
-                <YearRangeLegend>Year Range:</YearRangeLegend>
-              </Grid>
-              <Grid item>
-                <Box sx={{ width: 300 }}>
-                  <Slider
-                    min={1966}
-                    max={2017}
-                    value={yearRange}
-                    onChange={handleSliderChange}
-                    valueLabelDisplay="on"
-                  />
-                </Box>
-              </Grid> */}
             </Grid>
           </Grid>
           <Grid item xs={3} container direction="column" alignItems="center" spacing={3}>
