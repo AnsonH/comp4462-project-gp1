@@ -3,6 +3,29 @@ import { ResponsiveTimeRange } from "@nivo/calendar";
 import { filterYearsState, loadData } from "../../utils";
 
 const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
+const weekdays = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 export default function Time_Range({ yearRange, usState }) {
   const data = filterYearsState(rawData, yearRange, usState);
