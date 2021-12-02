@@ -1,13 +1,24 @@
 import { Card, CardContent, Grid } from "@mui/material";
 import { ResponsiveTimeRange } from "@nivo/calendar";
 import { filterYearsState, loadData } from "../../utils";
-import { getRaceData } from "../../utils/demographics";
 
 const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
 
 export default function Time_Range({ yearRange, usState }) {
   const data = filterYearsState(rawData, yearRange, usState);
-  const raceData = getRaceData(data);
+
+  // fit data into 2D array of weekdays by month
+  const timeData = [];
+  for (let i = 0; i < 7; ++i) {
+    timeData[i] = [];
+    for (let j = 0; j < 12; ++j) {
+      timeData[i][j] = 0;
+    }
+  }
+  data.map((shooting) => {
+    const d = new Date(shooting["Date"]);
+    ++timeData[d.getDay()][d.getMonth()];
+  });
 
   return (
     <Card variant="outlined">
