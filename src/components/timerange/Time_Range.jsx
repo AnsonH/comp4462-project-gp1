@@ -1,79 +1,47 @@
 import { Card, CardContent, Grid } from "@mui/material";
-import { ResponsiveTimeRange } from "@nivo/calendar";
+import { ResponsiveHeatMap } from "@nivo/heatmap";
 import { filterYearsState, loadData } from "../../utils";
+import { weekdays, months } from "../../constants/time";
 
 const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
-const weekdays = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-const months = [
-  "January",
-  "February",
-  "March",
-  "April",
-  "May",
-  "June",
-  "July",
-  "August",
-  "September",
-  "October",
-  "November",
-  "December",
-];
 
 export default function Time_Range({ yearRange, usState }) {
   const data = filterYearsState(rawData, yearRange, usState);
 
-  // fit data into 2D array of weekdays by month
+  /* timeData = [
+   *   { weekday: "Sun", Jan: 0, Feb: 0, ... , Dec: 0 },
+   *   ...
+   *   { weekday: "Sat", Jan: 0, Feb: 0, ... , Dec: 0 },
+   * ]
+   */
   const timeData = [];
-  for (let i = 0; i < 7; ++i) {
-    timeData[i] = [];
-    for (let j = 0; j < 12; ++j) {
-      timeData[i][j] = 0;
-    }
-  }
+  weekdays.forEach((weekday) => {
+    const obj = { weekday: weekday };
+    months.forEach((month) => {
+      obj[month] = 0;
+    });
+    timeData.push(obj);
+  });
+
   data.map((shooting) => {
     const d = new Date(shooting["Date"]);
-    ++timeData[d.getDay()][d.getMonth()];
+    ++timeData[d.getDay()][months[d.getMonth()]];
   });
 
   return (
     <Card variant="outlined">
       <CardContent>
-        <h2>Time Range</h2>
+        <h2>Distribution by Weekdays and Months</h2>
         <Grid container direction="row" spacing={1}>
-          <Grid item xs={6} style={{ height: 200 }}>
-            {/* <ResponsiveTimeRange
-                            data={data}
-                            from="2018-04-01"
-                            to="2018-08-12"
-                            emptyColor="#eeeeee"
-                            colors={[ '#61cdbb', '#97e3d5', '#e8c1a0', '#f47560' ]}
-                            margin={{ top: 40, right: 40, bottom: 100, left: 40 }}
-                            dayBorderWidth={2}
-                            dayBorderColor="#ffffff"
-                            legends={[
-                                {
-                                    anchor: 'bottom-right',
-                                    direction: 'row',
-                                    justify: false,
-                                    itemCount: 4,
-                                    itemWidth: 42,
-                                    itemHeight: 36,
-                                    itemsSpacing: 14,
-                                    itemDirection: 'right-to-left',
-                                    translateX: -60,
-                                    translateY: -60,
-                                    symbolSize: 20
-                                }
-                            ]}
-                        /> */}
+          <Grid item xs={12} style={{ height: 250 }}>
+            <ResponsiveHeatMap
+              data={timeData}
+              keys={months}
+              indexBy="weekday"
+              margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+              forceSquare={true}
+              colors="reds"
+            />
           </Grid>
           <Grid item></Grid>
         </Grid>
