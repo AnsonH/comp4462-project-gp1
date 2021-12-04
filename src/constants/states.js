@@ -46,6 +46,7 @@ const states = [
   "Vermont",
   "Virginia",
   "Washington",
+  "Washington, D.C.",
   "West Virginia",
   "Wisconsin",
   "Wyoming",

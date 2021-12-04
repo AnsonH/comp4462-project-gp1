@@ -18,7 +18,7 @@ export function filterYearsState(
     if (
       range[0] <= year &&
       year <= range[1] &&
-      shooting.State.includes(usState) &&
+      (usState === "" || shooting.State === usState) &&
       (venues.length === 0 || venues.includes(shooting["S#"]))
     ) {
       filteredData.push(shooting);
