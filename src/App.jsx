@@ -11,6 +11,7 @@ import Time_Range from "./components/timerange/Time_Range";
 function App() {
   const [yearRange, setYearRange] = useState([1966, 2017]);
   const [usState, setUsState] = useState("");
+  const [venues, setVenues] = useState([]);
 
   return (
     <div>
@@ -19,25 +20,32 @@ function App() {
         setYearRange={setYearRange}
         usState={usState}
         setUsState={setUsState}
+        venues={venues}
+        setVenues={setVenues}
       />
       <Grid container spacing={2} style={{ paddingTop: 80 }}>
         <Grid item xs={7} container direction="column" spacing={2}>
           <Grid item>
-            <Map yearRange={yearRange} usState={usState} />
+            <Map yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
           <Grid item>
-            <ParallelCoordinate yearRange={yearRange} usState={usState} />
+            <ParallelCoordinate yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
         </Grid>
         <Grid item xs={5} container direction="column" spacing={2}>
           <Grid item>
-            <Word_Cloud yearRange={yearRange} usState={usState} />
+            <Word_Cloud
+              yearRange={yearRange}
+              usState={usState}
+              venues={venues}
+              setVenues={setVenues}
+            />
           </Grid>
           <Grid item>
-            <Demographics2 yearRange={yearRange} usState={usState} />
+            <Demographics2 yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
           <Grid item>
-            <Time_Range yearRange={yearRange} usState={usState} />
+            <Time_Range yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
         </Grid>
       </Grid>

@@ -6,7 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import Grid from "@mui/material/Grid";
 import Slider from "@mui/material/Slider";
 import { ResponsivePie } from "@nivo/pie";
-import { CircleMarker, MapContainer, TileLayer, Tooltip } from "react-leaflet";
+import { CircleMarker, MapContainer, TileLayer, Tooltip, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { filterYearsState, getShootingByID, loadData } from "../../utils";
 import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/usMap";
@@ -19,8 +19,8 @@ const LegendH3 = styled.h3`
 
 const fullData = loadData();
 
-export default function Map({ yearRange, usState, setUsState }) {
-  const data = filterYearsState(fullData, yearRange, usState);
+export default function Map({ yearRange, usState, venues }) {
+  const data = filterYearsState(fullData, yearRange, usState, venues);
   const pieChartData = getPieChartData(data);
   // const [mapCenter, setMapCenter] = useState([38, -98]);
   // const [mapZoom, setMapZoom] = useState(4);
@@ -47,7 +47,7 @@ export default function Map({ yearRange, usState, setUsState }) {
     );
   };
 
-  // returns state coordinates by taking cluster mean of given coordinates by state
+  // returns state coordinates by taking cluster mean / mid-point of given coordinates by state
   function stateCenter() {
     if (usState === "") return [38, -98];
 
@@ -55,10 +55,23 @@ export default function Map({ yearRange, usState, setUsState }) {
     const longs = data.map((shooting) => shooting["Coordinates"][1]);
     if (lats.length === 0) return [38, -98];
 
+    // return [
+    //   lats.reduce((a, b) => a + b, 0) / lats.length,
+    //   longs.reduce((a, b) => a + b, 0) / longs.length,
+    // ];
     return [
-      lats.reduce((a, b) => a + b, 0) / lats.length,
-      longs.reduce((a, b) => a + b, 0) / longs.length,
+      (Math.max(...lats) + Math.min(...lats)) / 2,
+      (Math.max(...longs) + Math.min(...longs)) / 2,
     ];
+  }
+  // set zoom
+  const zoom =
+    usState === "" || (stateCenter()[0] === 38 && stateCenter()[1] === -98) ? 4 : 5;
+
+  function ReZoomComponent() {
+    const minimap = useMap();
+    minimap.setView(stateCenter(), zoom);
+    return null;
   }
 
   return (
@@ -70,12 +83,8 @@ export default function Map({ yearRange, usState, setUsState }) {
             <Grid item style={{ height: 350 }}>
               <MapContainer
                 style={{ height: 350 }}
-                center={stateCenter()}
-                zoom={
-                  usState === "" || (stateCenter()[0] === 38 && stateCenter()[1] === -98)
-                    ? 4
-                    : 5
-                }
+                center={[38, -98]}
+                zoom={4}
                 minZoom={3}
                 maxZoom={12}
               >
@@ -83,6 +92,7 @@ export default function Map({ yearRange, usState, setUsState }) {
                   attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+                <ReZoomComponent />
                 {data.map((shooting) => {
                   const S_id = shooting["S#"];
                   const stance = getPoliticalStance(S_id);
