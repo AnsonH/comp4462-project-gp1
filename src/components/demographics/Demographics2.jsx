@@ -6,8 +6,8 @@ import { getAgeData, getRaceData } from "../../utils/demographics";
 
 const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
 
-export default function Demographics({ yearRange, usState }) {
-  const data = filterYearsState(rawData, yearRange, usState);
+export default function Demographics({ yearRange, usState, venues }) {
+  const data = filterYearsState(rawData, yearRange, usState, venues);
   const raceData = getRaceData(data);
   const ageData = getAgeData(data);
 

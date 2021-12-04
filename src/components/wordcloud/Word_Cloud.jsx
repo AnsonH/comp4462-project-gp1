@@ -17,7 +17,7 @@ const rawData = loadData(
 );
 
 function handleMouseOut(d) {
-  d3.select("#story-titles").remove();
+  // d3.select("#story-titles").remove();
 }
 
 function getWordColor(proportion) {
@@ -49,7 +49,10 @@ export default function Word_Cloud(props) {
     { text: "Others", value: 0 },
   ];
 
-  function handleMouseClick(d) {}
+  function handleMouseClick(d) {
+    const locs = filterByVenue[d.text];
+    props.setVenues(locs);
+  }
 
   // function handleMouseOver(d) {
   //   var group = focus.append('g')
@@ -102,7 +105,12 @@ export default function Word_Cloud(props) {
   };
 
   // calculate word cloud text size
-  const filteredData = filterYearsState(rawData, props.yearRange, props.usState);
+  const filteredData = filterYearsState(
+    rawData,
+    props.yearRange,
+    props.usState,
+    props.venues
+  );
   const locations = Object.keys(placeSynonyms);
   for (let i in filteredData) {
     let counted = false;
@@ -165,12 +173,11 @@ export default function Word_Cloud(props) {
           random={() => 1}
           onWordClick={(event, d) => {
             // set global state
-            console.log(`onWordClick: ${d.text}`);
             handleMouseClick(d);
           }}
           onWordMouseOver={(event, d) => {
             // display number
-            console.log(`onWordMouseOver: ${d.text}, ${d.value}`);
+            // console.log(`onWordMouseOver: ${d.text}, ${d.value}`);
             // handleMouseOver(d);
           }}
           onWordMouseOut={(event, d) => {

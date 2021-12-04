@@ -59,8 +59,8 @@ const synonyms = {
   ],
 };
 
-export default function ParallelCoordinate({ yearRange, usState }) {
-  const data = filterYearsState(rawData, yearRange, usState);
+export default function ParallelCoordinate({ yearRange, usState, venues }) {
+  const data = filterYearsState(rawData, yearRange, usState, venues);
   data.map((shooting) => {
     const d = new Date(shooting["Date"]);
     shooting["Weekday"] = weekdays[(d.getDay() + 6) % 7];

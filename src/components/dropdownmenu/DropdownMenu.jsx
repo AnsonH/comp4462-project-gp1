@@ -81,6 +81,7 @@ export default function DropdownMenu(props) {
             onClick={() => {
               props.setYearRange([1966, 2017]);
               props.setUsState("");
+              props.setVenues([]);
             }}
           >
             Reset Filters

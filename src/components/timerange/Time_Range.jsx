@@ -5,8 +5,8 @@ import { weekdays, months } from "../../constants/time";
 
 const rawData = loadData(true, "S#", "Date", "State", "Gender", "Race_encoded", "Age");
 
-export default function Time_Range({ yearRange, usState }) {
-  const data = filterYearsState(rawData, yearRange, usState);
+export default function Time_Range({ yearRange, usState, venues }) {
+  const data = filterYearsState(rawData, yearRange, usState, venues);
 
   /* timeData = [
    *   { weekday: "Sun", Jan: 0, Feb: 0, ... , Dec: 0 },
