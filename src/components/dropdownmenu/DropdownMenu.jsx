@@ -69,7 +69,9 @@ export default function DropdownMenu(props) {
                   <em style={{ fontWeight: "bold" }}>All States</em>
                 </MenuItem>
                 {states.map((state) => (
-                  <MenuItem value={state.toUpperCase()}>{state}</MenuItem>
+                  <MenuItem key={state} value={state.toUpperCase()}>
+                    {state}
+                  </MenuItem>
                 ))}
               </Select>
             </FormControl>

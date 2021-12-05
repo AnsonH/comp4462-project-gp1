@@ -1,14 +1,11 @@
-import { useState } from "react";
 import styled from "@emotion/styled";
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Grid from "@mui/material/Grid";
-import Slider from "@mui/material/Slider";
 import { ResponsivePie } from "@nivo/pie";
 import { CircleMarker, MapContainer, TileLayer, Tooltip, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { filterYearsState, getShootingByID, loadData } from "../../utils";
+import { filterYearsState, loadData } from "../../utils";
 import { getPieChartData, getPoliticalStance, getStanceColor } from "../../utils/usMap";
 import BubbleLegend from "./BubbleLegend";
 
@@ -22,8 +19,6 @@ const fullData = loadData();
 export default function Map({ yearRange, usState, venues }) {
   const data = filterYearsState(fullData, yearRange, usState, venues);
   const pieChartData = getPieChartData(data);
-  // const [mapCenter, setMapCenter] = useState([38, -98]);
-  // const [mapZoom, setMapZoom] = useState(4);
 
   const PieChartCenterText = ({ dataWithArc, centerX, centerY }) => {
     let total = 0;

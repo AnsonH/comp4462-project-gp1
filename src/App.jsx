@@ -2,11 +2,10 @@ import { useState } from "react";
 import Grid from "@mui/material/Grid";
 import DropdownMenu from "./components/dropdownmenu/DropdownMenu";
 import Map from "./components/map/Map";
-import Word_Cloud from "./components/wordcloud/Word_Cloud";
-// import Demographics from "./components/demographics/Demographics";
+import WordCloud from "./components/wordcloud/Word_Cloud";
 import Demographics2 from "./components/demographics/Demographics2";
 import ParallelCoordinate from "./components/parallelcoordinate/ParallelCoordinate";
-import Time_Range from "./components/timerange/Time_Range";
+import TimeRange from "./components/timerange/Time_Range";
 
 function App() {
   const [yearRange, setYearRange] = useState([1966, 2017]);
@@ -34,7 +33,7 @@ function App() {
         </Grid>
         <Grid item xs={5} container direction="column" spacing={2}>
           <Grid item>
-            <Word_Cloud
+            <WordCloud
               yearRange={yearRange}
               usState={usState}
               venues={venues}
@@ -45,7 +44,7 @@ function App() {
             <Demographics2 yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
           <Grid item>
-            <Time_Range yearRange={yearRange} usState={usState} venues={venues} />
+            <TimeRange yearRange={yearRange} usState={usState} venues={venues} />
           </Grid>
         </Grid>
       </Grid>

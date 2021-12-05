@@ -9,7 +9,7 @@ import { bin } from "d3-array";
 export function getAgeData(data) {
   const ageList = data
     .map((item) => item.Age)
-    .filter((item) => item !== null && item !== NaN && item !== "0");
+    .filter((item) => item !== null && !isNaN(item) && item !== "0");
 
   // Process values that has two age values (eg. "15,16")
   ageList.forEach((age, index) => {

@@ -61,13 +61,12 @@ const synonyms = {
 
 export default function ParallelCoordinate({ yearRange, usState, venues }) {
   const data = filterYearsState(rawData, yearRange, usState, venues);
-  data.map((shooting) => {
+  data.forEach((shooting) => {
     const d = new Date(shooting["Date"]);
     shooting["Weekday"] = weekdays[(d.getDay() + 6) % 7];
   });
-  //   weekdays.unshift(weekdays.pop());
 
-  data.map((item) => {
+  data.forEach((item) => {
     const shooting = getShootingByID(item["S#"]);
     const locs = Object.keys(synonyms);
     const str = (

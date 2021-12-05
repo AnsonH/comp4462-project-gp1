@@ -23,7 +23,7 @@ export default function Time_Range({ yearRange, usState, venues }) {
     timeData.push(obj);
   });
 
-  data.map((shooting) => {
+  data.forEach((shooting) => {
     const d = new Date(shooting["Date"]);
     ++timeData[d.getDay()][months[d.getMonth()]];
   });

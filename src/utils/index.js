@@ -1,5 +1,4 @@
 import massShootData from "../data/mass_shootings.json";
-import usElectionData from "../data/us_election.json";
 
 /**
  * Filter mass shooting data by time range.
