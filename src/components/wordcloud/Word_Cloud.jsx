@@ -1,5 +1,4 @@
-import { Card, CardContent } from "@mui/material";
-import * as d3 from "d3";
+import { Button, Card, CardContent, Grid } from "@mui/material";
 import WordCloud from "react-d3-cloud";
 import { loadData, filterYearsState } from "../../utils";
 import WordCloudLegend from "./WordCloudLegend";
@@ -16,20 +15,23 @@ const rawData = loadData(
   "NER"
 );
 
-function handleMouseOut(d) {
-  // d3.select("#story-titles").remove();
-}
-
-function getWordColor(proportion) {
+function getWordColor(wordText, venueName, proportion) {
+  let color;
   if (proportion >= 0.3) {
-    return "#6D0909";
+    color = "#6D0909";
   } else if (proportion >= 0.2) {
-    return "#B41717";
+    color = "#B41717";
   } else if (proportion >= 0.02) {
-    return "#D15151";
+    color = "#D15151";
   } else {
-    return "#E27C7C";
+    color = "#dd7373";
   }
+
+  // Highlight the selected venue
+  if (venueName) {
+    return wordText === venueName ? color : "#e6cdcd";
+  }
+  return color;
 }
 
 export default function Word_Cloud(props) {
@@ -51,37 +53,9 @@ export default function Word_Cloud(props) {
 
   function handleMouseClick(d) {
     const locs = filterByVenue[d.text];
+    props.setVenueName(d.text);
     props.setVenues(locs);
   }
-
-  // function handleMouseOver(d) {
-  //   var group = focus.append('g')
-  //                    .attr('id', 'story-titles');
-  //    var base = d.y - d.size;
-
-  //   d3.selectAll('text')
-  //        .data(data['sample_title'][d.key])
-  //        .enter().append('text')
-  //        .attr('x', d.x)
-  //        .attr('y', function(title, i) {
-  //          return (base - i*14);
-  //        })
-  //        .attr('text-anchor', 'middle')
-  //        .text(function(title) { return title; });
-
-  //   var bbox = group.node().getBBox();
-  //   var bboxPadding = 5;
-
-  //   // place a white background to see text more clearly
-  //   var rect = group.insert('rect', ':first-child')
-  //                 .attr('x', bbox.x)
-  //                 .attr('y', bbox.y)
-  //                 .attr('width', bbox.width + bboxPadding)
-  //                 .attr('height', bbox.height + bboxPadding)
-  //                 .attr('rx', 10)
-  //                 .attr('ry', 10)
-  //                 .attr('class', 'label-background-strong');
-  // }
 
   function addValue(txt) {
     const element = words.find((item) => item.text === txt);
@@ -104,13 +78,8 @@ export default function Word_Cloud(props) {
     Others: [],
   };
 
-  // calculate word cloud text size
-  const filteredData = filterYearsState(
-    rawData,
-    props.yearRange,
-    props.usState,
-    props.venues
-  );
+  // Populate `filterByVenue` object
+  const filteredData = filterYearsState(rawData, props.yearRange, props.usState);
   const locations = Object.keys(placeSynonyms);
   for (let i in filteredData) {
     let counted = false;
@@ -160,7 +129,7 @@ export default function Word_Cloud(props) {
 
   return (
     <Card style={props.style} variant="outlined">
-      <CardContent>
+      <CardContent id="word-cloud">
         <h2>Places of Shooting</h2>
         <WordCloud
           data={words}
@@ -168,23 +137,37 @@ export default function Word_Cloud(props) {
           height={100}
           font="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'"
           fontSize={(word) => (word.value === 0 ? 0 : 10 + word.proportion * 100)}
-          fill={(word) => getWordColor(word.proportion)}
+          fill={(word) => getWordColor(word.text, props.venueName, word.proportion)}
           rotate={0}
           random={() => 1}
           onWordClick={(event, d) => {
-            // set global state
-            handleMouseClick(d);
-          }}
-          onWordMouseOver={(event, d) => {
-            // display number
-            // console.log(`onWordMouseOver: ${d.text}, ${d.value}`);
-            // handleMouseOver(d);
-          }}
-          onWordMouseOut={(event, d) => {
-            handleMouseOut(d);
+            handleMouseClick(d); // Select word, updates global state
           }}
         />
-        <WordCloudLegend style={{ margin: "15px 0 0 5px" }} />
+        <Grid
+          container
+          direction="row"
+          alignItems="center"
+          justifyContent="space-between"
+          spacing={1}
+          style={{ marginTop: 10 }}
+        >
+          <Grid item>
+            <WordCloudLegend />
+          </Grid>
+          <Grid item>
+            <Button
+              variant="outlined"
+              onClick={() => {
+                props.setVenueName("");
+                props.setVenues([]);
+              }}
+              style={{ visibility: props.venueName ? "visible" : "hidden" }}
+            >
+              Clear Filter
+            </Button>
+          </Grid>
+        </Grid>
       </CardContent>
     </Card>
   );

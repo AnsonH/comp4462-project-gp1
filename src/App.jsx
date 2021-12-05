@@ -10,7 +10,8 @@ import TimeRange from "./components/timerange/Time_Range";
 function App() {
   const [yearRange, setYearRange] = useState([1966, 2017]);
   const [usState, setUsState] = useState("");
-  const [venues, setVenues] = useState([]);
+  const [venueName, setVenueName] = useState(""); // Name of selected place of shooting
+  const [venues, setVenues] = useState([]); // List of S# where shooting occurred in that place
 
   return (
     <div>
@@ -19,7 +20,7 @@ function App() {
         setYearRange={setYearRange}
         usState={usState}
         setUsState={setUsState}
-        venues={venues}
+        setVenueName={setVenueName}
         setVenues={setVenues}
       />
       <Grid container spacing={2} style={{ paddingTop: 80 }}>
@@ -36,6 +37,8 @@ function App() {
             <WordCloud
               yearRange={yearRange}
               usState={usState}
+              venueName={venueName}
+              setVenueName={setVenueName}
               venues={venues}
               setVenues={setVenues}
             />

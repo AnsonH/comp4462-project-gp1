@@ -4,6 +4,8 @@ import massShootData from "../data/mass_shootings.json";
  * Filter mass shooting data by time range.
  * @param {object[]} shootingData Mass shooting data
  * @param {[number, number]} range Year range
+ * @param {string} usState US State
+ * @param {number[]} venues Array of S# where the shooting happened in a particular location
  */
 export function filterYearsState(
   shootingData,

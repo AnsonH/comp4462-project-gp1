@@ -34,3 +34,7 @@ code {
   font-size: 10px;
   line-height: 1.15;
 }
+
+#word-cloud text:hover {
+  cursor: pointer;
+}
