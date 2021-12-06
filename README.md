@@ -1,5 +1,13 @@
 # COMP4462 Project - Group 1
 
+## About
+
+This is a dashboard that visualizes data of US mass shooting events from 1966~2017. We obtained the dataset from [Kaggle](https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years).
+
+![Screenshot](./images/overview.png)
+
+The Jupyter notebooks that contain the data preprocessing code can be found in the `src/data` directory.
+
 ## Development
 
 ```bash

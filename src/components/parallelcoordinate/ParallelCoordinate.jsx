@@ -104,15 +104,6 @@ export default function ParallelCoordinate({ yearRange, usState, venues }) {
                   legendPosition: "start",
                   legendOffset: 20,
                 },
-                // {
-                //     key: 'Total victims',
-                //     type: 'linear',
-                //     min: 0,
-                //     max: 50,
-                //     legend: 'Total victims',
-                //     legendPosition: 'start',
-                //     legendOffset: -20
-                // },
                 {
                   key: "Weekday",
                   type: "point",
@@ -139,16 +130,6 @@ export default function ParallelCoordinate({ yearRange, usState, venues }) {
                   legendPosition: "start",
                   legendOffset: -20,
                 },
-                // {
-                //     key: 'Age',
-                //     type: 'linear',
-                //     min: 0,
-                //     max: 'auto',
-                //     legend: 'Age',
-                //     legendPosition: 'start',
-                //     legendOffset: -20,
-                //     ticksPosition: 'start',
-                // },
               ]}
               margin={{ top: 20, right: 70, bottom: 20, left: 60 }}
               colors={(item) => {
@@ -163,19 +144,7 @@ export default function ParallelCoordinate({ yearRange, usState, venues }) {
                       strokeWidth: 2,
                     },
                   },
-                  // "ticks": {
-                  //     "line": {
-                  //         "stroke": "#777777",
-                  //         "strokeWidth": 1
-                  //     }
-                  // }
                 },
-                // "grid": {
-                //     "line": {
-                //         "stroke": "#dddddd",
-                //         "strokeWidth": 1
-                //     }
-                // }
               }}
             />
           </Grid>
