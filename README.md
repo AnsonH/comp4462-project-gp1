@@ -1,8 +1,16 @@
-# COMP4462 Project - Group 1
+# US Mass Shooting Data Visualization
 
 ## About
 
-This is a dashboard that visualizes data of US mass shooting events from 1966~2017. We obtained the dataset from [Kaggle](https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years).
+This is the group project for the course "COMP4462 - Data Visualization" (2021 Fall).
+
+Contributors:
+
+- [owen-hwlee](https://github.com/owen-hwlee) - Front-end dashboard
+- [AnsonH](https://github.com/AnsonH) - Front-end dashboard
+- [thomas-chong](https://github.com/thomas-chong) - Data preprocessing and NLP
+
+This dashboard that visualizes data of US mass shooting events from 1966~2017. We obtained the dataset from [Kaggle](https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years).
 
 ![Screenshot](./images/overview.png)
 
