@@ -14,6 +14,7 @@ Contributors:
 - [owen-hwlee](https://github.com/owen-hwlee) - Front-end dashboard
 - [AnsonH](https://github.com/AnsonH) - Front-end dashboard
 - [thomas-chong](https://github.com/thomas-chong) - Data preprocessing and NLP
+- [akshatbansal1](https://github.com/akshatbansal1) - Data preprocessing
 
 This dashboard visualizes data of US mass shooting events from 1966~2017. We obtained the dataset from [Kaggle](https://www.kaggle.com/zusmani/us-mass-shootings-last-50-years).
 
